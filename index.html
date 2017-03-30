@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: default
 ---
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ layout: default
     <title>Bill Vasilopoulos Portfolio Page</title>
   </head>
 
-    <body>
+
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -25,8 +25,8 @@ layout: default
           <h1 id="project_title">Web Designs</h1>
           <h2 id="project_tagline">Some work I created using Bootstrap and CSS styling</h2>
           <a href="http://billvas.com/wats1010-product-page/">API Product Page</a><br>
-          <a href="http://billvas.com/wats1010-css-zen-garden/">CSS Zen Garden</a> 
-          
+          <a href="http://billvas.com/wats1010-css-zen-garden/">CSS Zen Garden</a>
+
 
           <!--{% if site.show_downloads %}
             <section id="downloads">
@@ -41,17 +41,17 @@ layout: default
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>Bio: Aspiring front-end web developer and musician who loves to code and play music.</h3>
- 
-        
+
+
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <!--{% if site.github.is_project_page %}-->
+        {% if site.github.is_project_page %}
         <p class="copyright"><!--{{ site.title | default: site.github.repository_name }}-->maintained by <a href="billvas.com">Bill Vasilopoulos</a></p>
-        <!--{% endif %}-->
+        {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
@@ -66,7 +66,7 @@ layout: default
         ga('send', 'pageview');
         {% endif %} </script>-->
 
-  </body>
+
 </html>
 Contact GitHub API Training Shop Blog About
 © 2017 GitHub, Inc. Terms Privacy Security Status Help
