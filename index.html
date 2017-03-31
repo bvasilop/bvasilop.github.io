@@ -47,7 +47,8 @@ layout: default
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
-        <p class="copyright"><a href="http://billvas.com">billvas.com</a><p> maintained by Bill Vasilopoulos</p>
+        <!--<p class="copyright"><a href="http://billvas.com">billvas.com</a></p> <p>maintained by Bill Vasilopoulos</p>-->
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="http://billvas.com">{{ site.github.owner_name }}</a></p>
         <!--<p>Contact info: bvasilop@gmail.com</p>-->
       </footer>
     </div>
