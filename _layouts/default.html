@@ -11,6 +11,7 @@
 
     <title>Bill Vasilopoulos Portfolio Page</title>
   </head>
+  <body>
 
 
     <!-- HEADER -->
@@ -46,10 +47,10 @@
      </div>
 
      <!-- FOOTER  -->
-     <div id="downloads" class="outer">
+     <div id="footer_wrap" class="outer">
        <footer class="outer">
          {% if site.github.is_project_page %}
-         <p>Portfolio page maintained by <a href="http://billvas.com">Bill Vasilopoulos</a></p>
+         Portfolio page maintained by <a href="http://billvas.com">Bill Vasilopoulos</a></p>
          {% endif %}
         <a href="http://billvas.com">Bill Vasilopoulos</a></a><br>
         <p>Contact info: bvasilop@gmail.com</p>
@@ -66,6 +67,8 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
         {% endif %} </script>
+
+      </body>
 
 
 </html>
