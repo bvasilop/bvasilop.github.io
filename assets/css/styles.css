@@ -468,6 +468,10 @@ iframe {
 .blog .item:last-child {
   margin-bottom: 0;
 }*/
+/* Music section*/
+.embed-responsive-16by9 {
+    padding-bottom: 28.25%;
+}
 /* List section */
 .list ul li {
   margin-bottom: 10px;
@@ -516,6 +520,12 @@ iframe {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+    .embed-responsive-16by9 {
+        padding-bottom: 32.25%;
+    }
+
+
+  }
   .header {
     text-align: center;
   }
