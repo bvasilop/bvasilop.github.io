@@ -2,7 +2,7 @@
 /* ======= Base ======= */
 body {
   font-family: 'Lato', arial, sans-serif;
-  color: #434343;
+  color: #0f4452;
   background: #263140;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -16,7 +16,7 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #3F5A79;
 }
 a {
   color: #3AAA64;
@@ -180,7 +180,7 @@ iframe {
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #0f4452;
   font-size: 24px;
 }
 .section .content .more-link .fa {
@@ -201,7 +201,7 @@ iframe {
   font-size: 12px;
 }
 .latest .item .title a {
-  color: #778492;
+  color: #3F5A79;
 }
 .latest .item .title a:hover {
   color: #5f6b77;
@@ -223,7 +223,7 @@ iframe {
 }
 .latest .featured .summary {
   margin-bottom: 30px;
-  color: #778492;
+  color: #263140;
 }
 .latest .featured img {
   margin-bottom: 30px;
@@ -427,7 +427,7 @@ iframe {
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
-  color: #999;
+  color: #405b79;
   font-weight: 600;
   padding-left: 25px;
 }
@@ -440,10 +440,10 @@ iframe {
   margin-bottom: 15px;
 }
 .languages .item .title {
-  color: #778492;
+  color: #3F5A79;
 }
 .languages .item .level {
-  color: #999;
+  color: #405b79;
 }
 .languages .item:last-child {
   margin-bottom: 0;
@@ -519,13 +519,11 @@ iframe {
   color: #fb866a;
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media only screen and (min-width: 325) and (max-width : 410) {
     .embed-responsive-16by9 {
         padding-bottom: 32.25%;
-    }
-
-
-  }
+}
+}
   .header {
     text-align: center;
   }
@@ -545,11 +543,44 @@ iframe {
     margin-bottom: 15px;
   }
 }
+/* iphone 5*/
+@media (max-width: 320px){
+
+    .embed-responsive-16by9 {
+       padding-bottom: 38.25%;
+  }
+}
 /* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    .embed-responsive-16by9 {
+        padding-bottom: 32.25%;
+    }
+}
 /* Medium devices (desktops, 992px and up) */
+
+@media (max-width: 992px){
+    .embed-responsive-16by9 {
+        padding-bottom: 13.25%;
+    }
+}
 /* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px){
+    .embed-responsive-16by9 {
+        padding-bottom: 32.25%;
+    }
+}
 /* Ex-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1300px){
+    .embed-responsive-16by9 {
+        padding-bottom: 31.25%;
+    }
+}
 @media (min-width: 1400px) {
+
+    .embed-responsive-16by9 {
+        padding-bottom: 23.25%;
+    }
   .container {
     width: 1360px;
   }
