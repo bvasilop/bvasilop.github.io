@@ -469,8 +469,8 @@ iframe {
   margin-bottom: 0;
 }*/
 /* Music section*/
-.embed-responsive-16by9 {
-    padding-bottom: 28.25%;
+.embed-responsive-1by1 {
+    padding-bottom: 82px;
 }
 /* List section */
 .list ul li {
@@ -518,12 +518,12 @@ iframe {
 .footer .fa-heart {
   color: #fb866a;
 }
-/* Extra small devices (phones, less than 768px) */
+/* Extra small devices (phones, less than 768px)
 @media only screen and (min-width: 325) and (max-width : 410) {
-    .embed-responsive-16by9 {
+    .embed-responsive-1by1 {
         padding-bottom: 32.25%;
 }
-}
+}*/
   .header {
     text-align: center;
   }
@@ -543,44 +543,45 @@ iframe {
     margin-bottom: 15px;
   }
 }
-/* iphone 5*/
+/* iphone 5
 @media (max-width: 320px){
 
     .embed-responsive-16by9 {
        padding-bottom: 38.25%;
   }
-}
-/* Small devices (tablets, 768px and up) */
+}*/
+/* Small devices (tablets, 768px and up)
 @media (max-width: 768px) {
 
     .embed-responsive-16by9 {
         padding-bottom: 32.25%;
     }
-}
-/* Medium devices (desktops, 992px and up) */
+}*/
+/* Medium devices (desktops, 992px and up)
 
 @media (max-width: 992px){
     .embed-responsive-16by9 {
         padding-bottom: 13.25%;
     }
-}
-/* Large devices (large desktops, 1200px and up) */
+}*/
+/* Large devices (large desktops, 1200px and up)
 @media (max-width: 1200px){
-    .embed-responsive-16by9 {
+    .embed-responsive-1by1 {
         padding-bottom: 32.25%;
     }
-}
-/* Ex-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1300px){
-    .embed-responsive-16by9 {
-        padding-bottom: 31.25%;
-    }
-}
-@media (min-width: 1400px) {
 
-    .embed-responsive-16by9 {
-        padding-bottom: 23.25%;
+}*/
+/* Ex-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1300px){
+    .embed-responsive-1by1 {
+        padding-bottom: 83px;
     }
+}
+/*@media (min-width: 1400px) {
+
+    .embed-responsive-1by1 {
+        padding-bottom: 85px;
+    }/*
   .container {
     width: 1360px;
   }
