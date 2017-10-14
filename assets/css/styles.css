@@ -119,9 +119,11 @@ iframe {
   font-weight: bold;
 }
 .header .profile-image {
+
   margin-right: 30px;
 }
 .img-circle {
+
     -webkit-filter: grayscale(45%);
     filter: grayscale(45%);
     border: 3px solid transparent;
@@ -504,12 +506,8 @@ iframe {
 }*/
 
 /* Extra small devices (phones, less than 768px)*/
-@media only screen and (min-width: 325) and (max-width : 410) {
-    .section .heading {
-        text-align: center;
-    }
+@media(max-width : 768px) {
 
-}
   .header {
     text-align: center;
   }
@@ -528,12 +526,12 @@ iframe {
   .project-image {
     margin-bottom: 15px;
   }
-}
-/* iphone 5 */
+
+/* iphone 5
 @media (max-width: 370px){
 
 
-}
+}*/
 /* Small devices (tablets, 768px and up)
 @media (max-width: 768px) {
 
@@ -554,6 +552,8 @@ iframe {
         text-align: center;
     }
 
+
+
 }
 /* Ex-Large devices (large desktops, 1200px and up)*/
 @media (max-width: 1300px){
@@ -562,6 +562,8 @@ iframe {
     .embed-responsive-1by1 {
         padding-bottom: 83px;
     }
+
+
 }
 /*@media (min-width: 1400px) {
 
