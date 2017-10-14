@@ -18,6 +18,7 @@ h6 {
   font-weight: 700;
   color: #3F5A79;
 }
+
 a {
   color: #3AAA64;
   -webkit-transition: all 0.4s ease-in-out;
@@ -290,7 +291,7 @@ iframe {
   line-height: 1.5;
 }
 .projects .item .title a {
-  color: #778492;
+  color: #405b79;
 }
 .projects .item .title a:hover {
   color: #5f6b77;
@@ -316,7 +317,7 @@ iframe {
   color: #666666;
 }
 .experience .item .title .year {
-  color: #999;
+  color: #49719a;
   font-weight: normal;
 }
 /* Git section */
@@ -392,7 +393,7 @@ iframe {
   margin-bottom: 0;
 }
 .testimonials .item .quote {
-  color: #666;
+  color: #405b79;
   font-size: 16px;
   border-left-color: #9fdeb7;
   margin-bottom: 15px;
@@ -407,11 +408,11 @@ iframe {
   font-weight: 500;
 }
 .testimonials .item .source .name {
-  color: #939ea9;
+  color: #49719a;
   font-weight: 600;
 }
 .testimonials .item .source .title {
-  color: #999;
+  color: #49719a;
 }
 /* Education section */
 .education .item {
@@ -451,23 +452,6 @@ iframe {
 .languages .item .fa {
   color: #79d19a;
 }
-/* Blog Section
-.blog .item {
-  margin-bottom: 30px;
-}
-.blog .item .title {
-  font-size: 18px;
-  line-height: 1.3;
-}
-.blog .item .title a {
-  color: #778492;
-}
-.blog .item .title a:hover {
-  color: #5f6b77;
-}
-.blog .item:last-child {
-  margin-bottom: 0;
-}*/
 /* Music section*/
 .embed-responsive-1by1 {
     padding-bottom: 82px;
@@ -501,7 +485,7 @@ iframe {
 .credits .btn {
   margin-bottom: 15px;
 }
-/* ======= Footer ======= */
+/* ======= Footer =======
 .footer {
   background: #32383e;
   color: #fff;
@@ -517,13 +501,15 @@ iframe {
 }
 .footer .fa-heart {
   color: #fb866a;
-}
-/* Extra small devices (phones, less than 768px)
-@media only screen and (min-width: 325) and (max-width : 410) {
-    .embed-responsive-1by1 {
-        padding-bottom: 32.25%;
-}
 }*/
+
+/* Extra small devices (phones, less than 768px)*/
+@media only screen and (min-width: 325) and (max-width : 410) {
+    .section .heading {
+        text-align: center;
+    }
+
+}
   .header {
     text-align: center;
   }
@@ -543,13 +529,11 @@ iframe {
     margin-bottom: 15px;
   }
 }
-/* iphone 5
-@media (max-width: 320px){
+/* iphone 5 */
+@media (max-width: 370px){
 
-    .embed-responsive-16by9 {
-       padding-bottom: 38.25%;
-  }
-}*/
+
+}
 /* Small devices (tablets, 768px and up)
 @media (max-width: 768px) {
 
@@ -564,15 +548,17 @@ iframe {
         padding-bottom: 13.25%;
     }
 }*/
-/* Large devices (large desktops, 1200px and up)
-@media (max-width: 1200px){
-    .embed-responsive-1by1 {
-        padding-bottom: 32.25%;
+/* Large devices (large desktops, 1200px and up)*/
+@media (max-width: 760px){
+    h2 {
+        text-align: center;
     }
 
-}*/
+}
 /* Ex-Large devices (large desktops, 1200px and up)*/
 @media (max-width: 1300px){
+
+
     .embed-responsive-1by1 {
         padding-bottom: 83px;
     }
