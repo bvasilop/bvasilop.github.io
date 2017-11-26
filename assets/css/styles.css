@@ -1,10 +1,11 @@
 
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: 'Avenir','Lato', arial, sans-serif;
   color: #0f4452;
   background: #263140;
-  font-size: 16px;
+  font-size: 1.65rem;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,8 +15,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Avenir','Montserrat', arial, sans-serif;
+  font-weight: bolder;
   color: #3F5A79;
 }
 h4{
