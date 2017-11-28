@@ -532,11 +532,19 @@ iframe {
     margin-bottom: 15px;
   }
 
-/* iphone 5
-@media (max-width: 370px){
+/* iphone 5*/
+@media only screen and (max-width: 414px) and (min-width: 300px){
+.gha-gravatar img {
+    padding: 3px;
+    position: relative;
+    top: -3.25rem;
+    width: 42%;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 3px #ccc;
+    right: 1rem;
+}
 
 
-}*/
 /* Small devices (tablets, 768px and up)
 @media (max-width: 768px) {
 
