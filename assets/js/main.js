@@ -32,5 +32,20 @@ $(function() {
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "bvasilop", selector: "#ghfeed" });
 
+    //Scroll Reveal
+
 
 });
+
+
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.header', { duration: 700 });
+sr.reveal('.about section', { duration: 1200 });
+sr.reveal('.container sections-wrapper', { duration: 800 });
+sr.reveal('.latest section', { duration: 900 });
+sr.reveal('.section-inner', { duration: 600 });
+sr.reveal('.projects section', { duration: 1400 }, 50);
+sr.reveal('.skills aside section', { duration: 2000 }, 50);
+
+
+
