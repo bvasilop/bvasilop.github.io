@@ -474,29 +474,16 @@ iframe {
 .list ul li a:hover {
     color: #49515a;
 }
-/* Credits */
-.credits ul li {
-    margin-bottom: 10px;
-}
-.credits ul li .fa {
-    margin-right: 5px;
-}
-.credits ul li a {
-    color: #778492;
-}
-.credits ul li a:hover {
-    color: #49515a;
-}
-.credits .btn {
-    margin-bottom: 15px;
-}
+
 /* ======= Footer =======*/
 .footer {
+    text-align: center;
     background: #0c0303;
     color: #fff;
     padding: 10px 0;
 }
 .footer .copyright {
+    text-align: center;
     line-height: 1.6;
     color: #a1aab4;
     font-size: 14px;
