@@ -492,9 +492,9 @@ iframe {
 .credits .btn {
   margin-bottom: 15px;
 }
-/* ======= Footer =======
+/* ======= Footer =======*/
 .footer {
-  background: #32383e;
+  background: #0c0303;
   color: #fff;
   padding: 10px 0;
 }
@@ -508,7 +508,7 @@ iframe {
 }
 .footer .fa-heart {
   color: #fb866a;
-}*/
+}
 
 /* Extra small devices (phones, less than 768px)*/
 @media(max-width : 768px) {
