@@ -172,11 +172,11 @@ iframe {
 }
 /* ======= Sections======= */
 .sections-wrapper {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 .section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .section .section-inner {
     background: #fff;
