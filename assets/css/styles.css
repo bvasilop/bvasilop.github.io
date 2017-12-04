@@ -529,6 +529,11 @@ iframe {
   .project-image {
     margin-bottom: 15px;
   }
+  footer{
+    display: inherit;
+
+}
+}
 
 /* iphone 5*/
 @media only screen and (max-width: 414px) and (min-width: 337px){
@@ -544,6 +549,9 @@ iframe {
 .gha-footer a{
     margin: 0 -1rem 0 0;
   }
+  footer{
+    display: inherit;
+}
 }
 @media only screen and (max-width: 336px) and (min-width: 300px){
 .gha-github-icon .octicon {
@@ -566,16 +574,28 @@ iframe {
 .gha-user-info a {
     margin: 0rem -3rem 0rem -0.2rem;
   }
+  footer{
+    display: inherit;
+}
 }
 @media (max-width: 760px){
 h2 {
     text-align: center;
   }
+  footer{
+      display: inherit;
+  }
+/*#tangletown-img{
+    text-align: center;
 }
+}*/
 /* Ex-Large devices (large desktops, 1200px and up)*/
 @media (max-width: 1300px){
 .embed-responsive-1by1 {
     padding-bottom: 83px;
   }
+  footer{
+    display: inherit;
+}
 }
 

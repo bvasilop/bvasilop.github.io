@@ -39,13 +39,14 @@ $(function() {
 
 
 window.sr = ScrollReveal({ reset: true });
-sr.reveal('.header', { duration: 700 });
+sr.reveal('.header', { duration: 900 });
 sr.reveal('.about section', { duration: 1200 });
-//sr.reveal('.container sections-wrapper', { duration: 800 });
-//sr.reveal('.latest section', { duration: 900 });
-sr.reveal('.section-inner', { duration: 600 });
+sr.reveal('.img-circle', { duration: 2000 });
+sr.reveal('.header .profile-content .name', { duration: 2300 });
+sr.reveal('.header .profile-content .desc', { duration: 2500 });
+sr.reveal('.section-inner', { duration: 700 });
 sr.reveal('.skills aside section', { duration: 2000 });
-sr.reveal('.footer', { duration: 600 });
+sr.reveal('.footer', { duration: 700 });
 
 
 
