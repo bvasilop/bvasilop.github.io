@@ -1,13 +1,13 @@
 
 /* ======= Base ======= */
 body {
-  font-family: 'Avenir','Lato', arial, sans-serif;
-  color: #0f4452;
-  background: #263140;
-  font-size: 1.65rem;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Avenir','Lato', arial, sans-serif;
+    color: #0f4452;
+    background: #263140;
+    font-size: 1.65rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 h1,
 h2,
@@ -15,89 +15,89 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Avenir','Montserrat', arial, sans-serif;
-  font-weight: bolder;
-  color: #3F5A79;
+    font-family: 'Avenir','Montserrat', arial, sans-serif;
+    font-weight: bolder;
+    color: #3F5A79;
 }
 h4{
     font-size: 1.21em;
     }
 
 a {
-  color: #3AAA64;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+    color: #3AAA64;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
-  text-decoration: underline;
-  color: #5f6b77;
-  color: #2d844e;
+    text-decoration: underline;
+    color: #5f6b77;
+    color: #2d844e;
 }
 a:focus {
-  text-decoration: none;
+    text-decoration: none;
 }
 .btn,
 a.btn {
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
-  padding: 8px 16px;
-  font-weight: bold;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    font-family: 'Montserrat', arial, sans-serif;
+    padding: 8px 16px;
+    font-weight: bold;
 }
 .btn .fa,
 a.btn .fa {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 .btn:focus,
 a.btn:focus {
-  color: #fff;
+    color: #fff;
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #273241;
-  border: 1px solid #54ba4e;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
+    background: #273241;
+    border: 1px solid #54ba4e;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
-  color: #fff;
+    background: #49ac43;
+    border: 1px solid #49ac43;
+    color: #fff;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: #479FC8;
-  border: 1px solid #479FC8;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
+    background: #479FC8;
+    border: 1px solid #479FC8;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: #3893bd;
-  border: 1px solid #3893bd;
-  color: #fff;
+    background: #3893bd;
+    border: 1px solid #3893bd;
+    color: #fff;
 }
 .text-highlight {
-  color: #32383e;
+    color: #32383e;
 }
 .label-theme {
-  background: #3AAA64;
-  font-size: 12px;
+    background: #3AAA64;
+    font-size: 12px;
 }
 a.dotted-link {
-  border-bottom: 1px dotted #778492;
-  color: #778492;
+    border-bottom: 1px dotted #778492;
+    color: #778492;
 }
 a.dotted-link:hover {
-  text-decoration: none;
-  color: #49515a;
+    text-decoration: none;
+    color: #49515a;
 }
 /*
 iframe {
@@ -114,24 +114,25 @@ iframe {
 */
 /* ======= Header ======= */
 .header {
-  padding: 30px 0;
-  background: #0c0303;
-  border-top: 1px solid #263140;
+    padding: 30px 0;
+    background: #0c0303;
+    border-top: 3px solid #263140;
 }
 .header .btn {
-  margin-top: 60px;
-  font-weight: bold;
+    margin-top: 60px;
+    font-weight: bold;
 }
 .header .profile-image {
-
-  margin-right: 30px;
+    margin-right: 30px;
 }
 .img-circle {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     -webkit-filter: grayscale(45%);
     filter: grayscale(45%);
     border: 3px solid transparent;
     border-radius: 50%;
-    border-color: white;
+    border-color: #3e3f45;
 }
 .header .profile-content .name {
     color: #49515a;
@@ -482,7 +483,7 @@ iframe {
     background: #0c0303;
     color: #fff;
     padding: 10px 0;
-    border-bottom: 1px solid #263140;
+    /*border-bottom: 1px solid #263140;*/
 }
 .footer .copyright {
     text-align: center;
@@ -501,7 +502,6 @@ iframe {
 @media(max-width : 768px) {
 
   .header {
-    border-top: 5px solid #263140;
     text-align: center;
   }
   .header .profile-image {
