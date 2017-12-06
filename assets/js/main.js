@@ -46,7 +46,7 @@ sr.reveal('.header .profile-content .name', { duration: 2300 });
 sr.reveal('.header .profile-content .desc', { duration: 2500 });
 sr.reveal('.section-inner', { duration: 700 });
 sr.reveal('.skills aside section', { duration: 2000 });
-sr.reveal('.footer', { duration: 700 });
+//sr.reveal('.footer', { duration: 700 });
 
 
 
