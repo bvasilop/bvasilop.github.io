@@ -214,7 +214,7 @@ iframe {
 .latest .item .title a:hover {
     color: #610354;
 }
-.latest .item .project-image:hover {
+.item .project-image:hover {
     -webkit-opacity: 0.8;
     -moz-opacity: 0.8;
     opacity: 0.8;
