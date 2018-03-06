@@ -463,6 +463,22 @@ iframe {
 .embed-responsive-1by1 {
     padding-bottom: 82px;
 }
+
+/* Linked In Badge */
+
+.LI-badge-container.horizontal.dark  {
+    width: 300px;
+    background:#282828;
+    background-color:#282828;
+    padding-top: 5px;
+    font-size: 1.5rem;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #232629;
+    color: rgba(0,0,0,0.85);
+}
 /* List section */
 .list ul li {
     margin-bottom: 10px;
