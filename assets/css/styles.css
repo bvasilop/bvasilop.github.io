@@ -466,7 +466,7 @@ iframe {
 
 /* Linked In Badge */
 
-.LI-badge-container.horizontal.dark  {
+/*.LI-badge-container.horizontal.dark  {
     width: 300px;
     background:#282828;
     background-color:#282828;
@@ -478,7 +478,7 @@ iframe {
     line-height: 22px;
     color: #232629;
     color: rgba(0,0,0,0.85);
-}
+}*/
 /* List section */
 .list ul li {
     margin-bottom: 10px;
