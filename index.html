@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
     <title>Portfolio for Bill Vasilopoulos</title>
     <!-- Meta -->
@@ -41,41 +44,74 @@
     <!-- custom js -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- scroll reveal js -->
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"> async</script>
+    <script async src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"> </script>
+
     <script type="text/javascript" defer src="assets/js/main.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110221936-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110221936-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-110221936-1');
-</script>
-<!--LinkedIn Badge-->
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110221936-1');
+
+    </script>
+    <!--LinkedIn Badge-->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 
 <body>
     <!-- ******HEADER****** -->
     <header class="header">
         <div class="container">
-            <img class="profile-image img-circle pull-left" src="assets/images/headshot.png" height= "165" width= "155" alt="Bill Vasilopoulos" />
+            <img class="profile-image img-circle pull-left" src="assets/images/headshot.png" height="165" width="155" alt="Bill Vasilopoulos"
+            />
             <div class="profile-content pull-left">
                 <h1 class="name">Bill Vasilopoulos</h1>
                 <h2 class="desc">Front-End Web Developer</h2>
                 <ul class="social list-inline">
-                    <li><a href="https://www.facebook.com/bill.vasilopoulos" target="_blank" data-toggle="tooltip" title="Contact me on Facebook!"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/bvasilop/" target="_blank" data-toggle="tooltip" title="Contact me on Instagram!"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/bill-vasilopoulos-778031155/" target="_blank" data-toggle="tooltip" title="Contact me on LinkedIn!"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/bvasilop" target="_blank"><i class="fa fa-github-alt"data-toggle="tooltip" title="Check out my projects on Github!"></i></a></li>
-                    <li><a href="https://slack.com/"><i class="fa fa-slack" data-toggle="tooltip" title="Chat with me on Slack!"></i></a></li>
-                    <li class="last-item"><a href="mailto:bvasilop@gmail.com" target="_blank" data-toggle="tooltip" title="Send me an Email!"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    <li>
+                        <a href="https://www.facebook.com/bill.vasilopoulos" target="_blank" data-toggle="tooltip" title="Contact me on Facebook!">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bvasilop/" target="_blank" data-toggle="tooltip" title="Contact me on Instagram!">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bill-vasilopoulos" target="_blank" data-toggle="tooltip" title="Contact me on LinkedIn!">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/bvasilop" target="_blank" data-toggle="tooltip" title="Check out my projects on Github!">
+                            <i class="fa fa-github-alt"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://slack.com/">
+                            <i class="fa fa-slack" data-toggle="tooltip" title="Chat with me on Slack!"></i>
+                        </a>
+                    </li>
+                    <li class="last-item">
+                        <a href="mailto:bvasilop@gmail.com" target="_blank" data-toggle="tooltip" title="Send me an Email!">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </a>
+                    </li>
                 </ul>
-            </div><!--//profile-->
+            </div>
+            <!--//profile-->
             <!--<a class="btn btn-cta-primary pull-right" a href="mailto:bvasilop@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>-->
-        </div><!--//container-->
-    </header><!--//header-->
+        </div>
+        <!--//container-->
+    </header>
+    <!--//header-->
 
     <div class="container sections-wrapper">
         <div class="row">
@@ -83,11 +119,19 @@
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
-                        <div class="content"><p>I am a front-end developer with experience in creating static and dynamic websites and web applications. Knowledgeable in front-end technology as well as the principles and techniques of website development and maintenance. Adept at conveying complex technical information to a variety of technical and non-technical professional audiences. Seeking employment as a front-end web developer in the Seattle area.
-                        </p>
-                    </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                        <div class="content">
+                            <p>I am a front-end developer with experience in creating static and dynamic websites and web applications.
+                                Knowledgeable in front-end technology as well as the principles and techniques of website
+                                development and maintenance. Adept at conveying complex technical information to a variety
+                                of technical and non-technical professional audiences. Seeking employment as a front-end
+                                web developer in the Seattle area.
+                            </p>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
 
                 <section class="latest section">
                     <div class="section-inner">
@@ -95,137 +139,230 @@
                         <div class="content">
 
                             <div class="item featured text-center">
-                                    <h2 class="heading">Vue JS Capstone Project</h2>
-                                    <!--<h3 class="title"><a href="https://billvas-webdev.github.io/VueJS-NewsApp/" target="_blank"> </a>-->
-                                        <p><a class="more-link" href="https://billvas-webdev.github.io/VueJS-NewsApp/" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
+                                <h2 class="heading">Vue JS Capstone Project</h2>
+                                <!--<h3 class="title"><a href="https://billvas-webdev.github.io/VueJS-NewsApp/" target="_blank"> </a>-->
+                                <p>
+                                    <a class="more-link" href="https://billvas-webdev.github.io/VueJS-NewsApp/" target="_blank">
+                                        <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                </p>
 
-                                        <!--<i class="fa fa-external-link"></i> Angular JS Weather App</a></h3>-->
-                                <h3 class="title"><a href="https://github.com/billvas-webdev/VueJS-NewsApp" target="_blank"> <i class="fa fa-github-alt"></i> View on github</a></h3>
-                                <p class="summary">This project is a responsive web application that leverages Vue JS, Vue Resource, Node JS, News API, Dark Ski API, Bootstrap, JQuery, and Google Analytics. Hosted on a secure network to allow for geolocation for local weather updates. It also provides up to the minute news content from over 50 news sources and access to the news organization's websites.</p>
+                                <!--<i class="fa fa-external-link"></i> Angular JS Weather App</a></h3>-->
+                                <h3 class="title">
+                                    <a href="https://github.com/billvas-webdev/VueJS-NewsApp" target="_blank">
+                                        <i class="fa fa-github-alt"></i> View on github</a>
+                                </h3>
+                                <p class="summary">This project is a responsive web application that leverages Vue JS, Vue Resource, Node JS,
+                                    News API, Dark Ski API, Bootstrap, JQuery, and Google Analytics. Hosted on a secure network
+                                    to allow for geolocation for local weather updates. It also provides up to the minute
+                                    news content from over 50 news sources and access to the news organization's websites.</p>
                                 <div class="featured-image">
                                     <a href="https://billvas-webdev.github.io/VueJS-NewsApp/" target="_blank">
-                                    <img class="img-responsive project-image" src="assets/images/vue-js.png" alt="project name" />
+                                        <img class="img-responsive project-image" src="assets/images/vue-js.png" alt="project name" />
                                     </a>
                                     <div class="ribbon">
                                         <div class="text">Vue JS</div>
-                                        </div>
                                     </div>
-                                    </div>
-                                </section><!--//section-->
+                                </div>
+                            </div>
+                            <!--content-->
+                        </div>
+                    </div>
+                    <!--section inner-->
+                </section>
+                <!--//section-->
 
                 <section class="latest section">
                     <div class="section-inner">
                         <!--<h2 class="heading">Latest Projects</h2>-->
                         <div class="content">
                             <div class="item featured text-center">
-                                    <h2 class="heading">Angular JS Weather</h2>
-                                    <!--<h3 class="title"><a href="http://billvas.com/AngularJS-Weather" target="_blank"> </a>-->
-                                        <p><a class="more-link" href="http://billvas.com/AngularJS-Weather" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
+                                <h2 class="heading">Angular JS Weather</h2>
+                                <!--<h3 class="title"><a href="http://billvas.com/AngularJS-Weather" target="_blank"> </a>-->
+                                <p>
+                                    <a class="more-link" href="http://billvas.com/AngularJS-Weather" target="_blank">
+                                        <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                </p>
 
-                                        <!--<i class="fa fa-external-link"></i> Angular JS Weather App</a></h3>-->
-                                <h3 class="title"><a href="https://github.com/bvasilop/AngularJS-Weather" target="_blank"> <i class="fa fa-github-alt"></i> View on github</a></h3>
-                                <p class="summary">This project is a responsive web application that utilizes Yeoman scaffolding, Node JS, Sass, Bootstrap, Modernizr, Grunt, AngularJS and OpenWeatherMap API. This webapp provides current weather, 5-day forecasts as well as 15-day extended weather forecasts for any location. It also allows users to store locations with the assistance of local storage modules</p>
+                                <!--<i class="fa fa-external-link"></i> Angular JS Weather App</a></h3>-->
+                                <h3 class="title">
+                                    <a href="https://github.com/bvasilop/AngularJS-Weather" target="_blank">
+                                        <i class="fa fa-github-alt"></i> View on github</a>
+                                </h3>
+                                <p class="summary">This project is a responsive web application that utilizes Yeoman scaffolding, Node JS, Sass,
+                                    Bootstrap, Modernizr, Grunt, AngularJS and OpenWeatherMap API. This webapp provides current
+                                    weather, 5-day forecasts as well as 15-day extended weather forecasts for any location.
+                                    It also allows users to store locations with the assistance of local storage modules</p>
                                 <div class="featured-image">
                                     <a href="http://billvas.com/AngularJS-Weather/" target="_blank">
-                                    <img class="img-responsive project-image" src="assets/images/angular-image.png" alt="project name" />
+                                        <img class="img-responsive project-image" src="assets/images/angular-image.png" alt="project name" />
                                     </a>
-                                <div class="ribbon">
-                                <div class="text">Angular</div>
-                                </div>
+                                    <div class="ribbon">
+                                        <div class="text">Angular</div>
+                                    </div>
                                 </div>
                                 <!--<div class="desc text-left">
                                     <p>Promote main project here.</p>
                                     <p>More promotion content</p>
-                                </div>--><!--//desc-->
+                                </div>-->
+                                <!--//desc-->
                                 <!--<a class="btn btn-cta-secondary" href="http://billvas.com/"></i>Website</a>-->
-                                </div><!--//item-->
-                            </section><!--//section-->
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--content-->
+                    </div>
+                    <!---section inner-->
+                </section>
+                <!--//section-->
 
-                            <section class="latest section">
-                                <div class="section-inner">
-                                    <!--<h2 class="heading">Latest Projects</h2>-->
-                                    <div class="content">
-                                        <div class="item featured text-center">
-                                                <h2 class="heading">Wordpress E-Commerce Site</h2>
-                                                <!--<h3 class="title"><a href="http://billvas.com/AngularJS-Weather" target="_blank"> </a>-->
-                                                    <p><a class="more-link" href="http://iliosgarden.org/" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
+                <section class="latest section">
+                    <div class="section-inner">
+                        <!--<h2 class="heading">Latest Projects</h2>-->
+                        <div class="content">
+                            <div class="item featured text-center">
+                                <h2 class="heading">Wordpress E-Commerce Site</h2>
+                                <!--<h3 class="title"><a href="http://billvas.com/AngularJS-Weather" target="_blank"> </a>-->
+                                <p>
+                                    <a class="more-link" href="http://iliosgarden.org/" target="_blank">
+                                        <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                </p>
 
-                                                    <!--<i class="fa fa-external-link"></i> Angular JS Weather App</a></h3>-->
-                                            <!--<h3 class="title"><a href="http://iliosgarden.org/" target="_blank"> <i class="fa fa-github-alt"></i> View on github</a></h3>-->
-                                            <p class="summary">This freelance website was created for a retail garden supply client utilizing Wordpress and Woocommerce to facilitate browsing and purchasing of a broad catalog of horticulture products and equipment. Using extensive CSS to create unique styling for the site as well as utilizing Wordpress plugins such as, Google Analytics, Akismet, WP SuperCache, Ninja Forms, WooCommerce, Storefront Product Sharing, WP All Import, Storefront Product Sharing and Search Engine Visibility to allow users to browse, purchase and checkout with a unique consumer user experience.</p>
-                                            <div class="featured-image">
-                                                <a href="http://iliosgarden.org/" target="_blank">
-                                                <img class="img-responsive project-image" src="assets/images/ilios.png" alt="Ilios Garden Supply" />
-                                                </a>
-                                            <div class="ribbon">
-                                            <div class="text">Wordpress</div>
-                                            </div>
-                                            </div>
-                                            <!--<div class="desc text-left">
+                                <!--<i class="fa fa-external-link"></i> Angular JS Weather App</a></h3>-->
+                                <!--<h3 class="title"><a href="http://iliosgarden.org/" target="_blank"> <i class="fa fa-github-alt"></i> View on github</a></h3>-->
+                                <p class="summary">This freelance website was created for a retail garden supply client utilizing Wordpress
+                                    and Woocommerce to facilitate browsing and purchasing of a broad catalog of horticulture
+                                    products and equipment. Using extensive CSS to create unique styling for the site as
+                                    well as utilizing Wordpress plugins such as, Google Analytics, Akismet, WP SuperCache,
+                                    Ninja Forms, WooCommerce, Storefront Product Sharing, WP All Import, Storefront Product
+                                    Sharing and Search Engine Visibility to allow users to browse, purchase and checkout
+                                    with a unique consumer user experience.</p>
+                                <div class="featured-image">
+                                    <a href="http://iliosgarden.org/" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/ilios.png" alt="Ilios Garden Supply" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">Wordpress</div>
+                                    </div>
+                                </div>
+                                <!--<div class="desc text-left">
                                                 <p>Promote main project here.</p>
                                                 <p>More promotion content</p>
-                                            </div>--><!--//desc-->
-                                            <!--<a class="btn btn-cta-secondary" href="http://billvas.com/"></i>Website</a>-->
-                                            </div><!--//item-->
-                                        </section><!--//section-->
+                                            </div>-->
+                                <!--//desc-->
+                                <!--<a class="btn btn-cta-secondary" href="http://billvas.com/"></i>Website</a>-->
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section inner-->
+                </section>
+                <!--//section-->
 
 
 
-                            <section class="projects section">
-                            <div class="section-inner">
-                            <div class="content">
+                <section class="projects section">
+                    <div class="section-inner">
+                        <div class="content">
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://billvas.com/Tangletown-Coffee-Website/" target="_blank">
-                                <img class="img-responsive project-image" id="tangletown-img" src="assets/images/coffee.png" alt="Tangletown Coffee Site" />
+                                    <img class="img-responsive project-image" id="tangletown-img" src="assets/images/coffee.png" alt="Tangletown Coffee Site"
+                                    />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h2 class="heading">Tangletown Coffee Website</h2>
-                                    <p><a class="more-link" href="http://billvas.com/Tangletown-Coffee-Website/" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
+                                    <p>
+                                        <a class="more-link" href="http://billvas.com/Tangletown-Coffee-Website/" target="_blank">
+                                            <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                    </p>
                                     <!--<h3 class="title"><a href="http://billvas.com/Tangletown-Coffee-Website/" target="_blank"> <i class="fa fa-external-link"></i> Visit site</a></h3>-->
-                                    <h3 class="title"><a href="https://github.com/bvasilop/Tangletown-Coffee-Website" target="_blank"> <i class="fa fa-github-alt"></i> View on github</a></h3>
-                                    <p>A coffee website that utilizes HTML, CSS, Jquery, Javascript and Google Maps API. Also using javascript and Google Maps API to add an interactive map while allowing for resizing the map in relation to the screen size. Additionally utilized JQuery for smooth scrolling effects as well as form validation. </p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
+                                    <h3 class="title">
+                                        <a href="https://github.com/bvasilop/Tangletown-Coffee-Website" target="_blank">
+                                            <i class="fa fa-github-alt"></i> View on github</a>
+                                    </h3>
+                                    <p>A coffee website that utilizes HTML, CSS, Jquery, Javascript and Google Maps API. Also
+                                        using javascript and Google Maps API to add an interactive map while allowing for
+                                        resizing the map in relation to the screen size. Additionally utilized JQuery for
+                                        smooth scrolling effects as well as form validation. </p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+                            <!--//item-->
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://billvas.com/Mt.-Rainier-Site/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/rainier.png" alt="project name" />
+                                    <img class="img-responsive project-image" src="assets/images/rainier.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h2 class="heading">Mt. Rainier Website</h2>
-                                    <p><a class="more-link" href="http://billvas.com/Mt.-Rainier-Site/" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
+                                    <p>
+                                        <a class="more-link" href="http://billvas.com/Mt.-Rainier-Site/" target="_blank">
+                                            <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                    </p>
                                     <!--<h3 class="title"><a href="http://billvas.com/Mt.-Rainier-Site/" target="_blank"><i class="fa fa-external-link"></i> Visit site</a></h3>-->
-                                    <h3 class="title"><a href="https://github.com/bvasilop/Mt.-Rainier-Site" target="_blank"> <i class="fa fa-github-alt"></i> View on github</a></h3>
-                                    <p>Created by implementing Openmap api tools integrated with JQuery and Bootstrap. These tools were used to assist with creating an interactive page for a geographical location. Multiple map layers were created with the assistance of openmap tools which provided real-time geographical data.</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
+                                    <h3 class="title">
+                                        <a href="https://github.com/bvasilop/Mt.-Rainier-Site" target="_blank">
+                                            <i class="fa fa-github-alt"></i> View on github</a>
+                                    </h3>
+                                    <p>Created by implementing Openmap api tools integrated with JQuery and Bootstrap. These
+                                        tools were used to assist with creating an interactive page for a geographical location.
+                                        Multiple map layers were created with the assistance of openmap tools which provided
+                                        real-time geographical data.</p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+                            <!--//item-->
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://wordpress.webapp.billvas.com/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/tangletown-wordpress.png" alt="tangletown coffee wordpress site"/>
+                                    <img class="img-responsive project-image" src="assets/images/tangletown-wordpress.png" alt="tangletown coffee wordpress site"
+                                    />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h2 class="heading">Tangletown Coffee Wordpress Site</h2>
-                                    <p><a class="more-link" href="http://wordpress.webapp.billvas.com/" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
-                                    <p>A product website for a fictitious coffee company located in Seattle's Green Lake neighborhood. Utilizing the Wordpress Content Management System as well as plugins, Akismet (security, contact form submissions), Buddypress (secure social network plugin) and WP SuperCache and Jetpack (load time optimization plugin that assists with all the necessary optimization requirements). </p>
+                                    <p>
+                                        <a class="more-link" href="http://wordpress.webapp.billvas.com/" target="_blank">
+                                            <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                    </p>
+                                    <p>A product website for a fictitious coffee company located in Seattle's Green Lake neighborhood.
+                                        Utilizing the Wordpress Content Management System as well as plugins, Akismet (security,
+                                        contact form submissions), Buddypress (secure social network plugin) and WP SuperCache
+                                        and Jetpack (load time optimization plugin that assists with all the necessary optimization
+                                        requirements). </p>
 
-                                </div><!--//desc-->
-                            </div><!--//item-->
+                                </div>
+                                <!--//desc-->
+                            </div>
+                            <!--//item-->
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://billvas.com/Flickr-Search-Site/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/flickr.png" alt="Flickr site" />
+                                    <img class="img-responsive project-image" src="assets/images/flickr.png" alt="Flickr site" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                        <h2 class="heading">Flickr Search</h2>
-                                        <p><a class="more-link" href="http://billvas.com/Flickr-Search-Site/" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
-                                        <h3 class="title"><a href="https://github.com/bvasilop/Flickr-Search-Site" target="_blank"> <i class="fa fa-github-alt"></i> View on github</a></h3>
-                                    <p>A project that was created using Javascript, Jquery, Bootstrap and the Flickr API to search Flickr and show a grid of images returned. Also, utilizing progressive enhancement for activating forms and making calls to the Flickr API. Finally, utilizing Jquery for enlarging images, transitional effects, and placement of images on the grid.</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                                    <h2 class="heading">Flickr Search</h2>
+                                    <p>
+                                        <a class="more-link" href="http://billvas.com/Flickr-Search-Site/" target="_blank">
+                                            <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                    </p>
+                                    <h3 class="title">
+                                        <a href="https://github.com/bvasilop/Flickr-Search-Site" target="_blank">
+                                            <i class="fa fa-github-alt"></i> View on github</a>
+                                    </h3>
+                                    <p>A project that was created using Javascript, Jquery, Bootstrap and the Flickr API to
+                                        search Flickr and show a grid of images returned. Also, utilizing progressive enhancement
+                                        for activating forms and making calls to the Flickr API. Finally, utilizing Jquery
+                                        for enlarging images, transitional effects, and placement of images on the grid.</p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
 
                 <section class="projects section">
                     <div class="section-inner">
@@ -234,98 +371,191 @@
                             <div class="item">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://responserequest.com/vasilopo/" target="_blank">
                                     <img class="img-responsive project-image" src="assets/images/science-journal.png" alt="User Science Journal" />
-                                    </a>
-                                    <p><a class="more-link" href="http://responserequest.com/vasilopo/" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
-                                <p class="summary">Provided user science testing and analysis, Google analytics event based analytics, accesibility and usability analysis while presenting findings with the assistance of Wordpress content management systems.</p><br>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                                </a>
+                                <p>
+                                    <a class="more-link" href="http://responserequest.com/vasilopo/" target="_blank">
+                                        <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                </p>
+                                <p class="summary">Provided user science testing and analysis, Google analytics event based analytics, accesibility
+                                    and usability analysis while presenting findings with the assistance of Wordpress content
+                                    management systems.</p>
+                                <br>
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
 
-                            <section class="projects section">
-                                <div class="section-inner">
-                                    <h2 class="heading">Grow with Google Challenge Scholarship</h2>
-                                    <div class="content">
-                                        <div class="item">
-                                            <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">
-                                                <img class="img-responsive project-image" src="assets/images/GrowWithGoogle.png" alt="Grow with Google Scholarship" />
-                                               </a>
-                                              <p><a class="more-link" href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank"> <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a></p>
-                                            <p class="summary">Challenge scholarship co-sponsored by Google and Udacity which provided a mobile web development curriculum that included Offline-first applications, Service workers, IndexDB and Caching, ES6 syntax, Default Function Parameters, Destructuring, Built-Ins, Classes and Subclasses, Array helper methods, Promises, Fetch Generators, Modifying Sets and Iterators, WeakMaps, Proxies, Polyfills and Transpiling.</p><br>
-                                        </div><!--//item-->
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Grow with Google Challenge Scholarship</h2>
+                        <div class="content">
+                            <div class="item">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/GrowWithGoogle.png" alt="Grow with Google Scholarship" />
+                                </a>
+                                <p>
+                                    <a class="more-link" href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank">
+                                        <i class="fa fa-external-link"></i> VISIT THE WEBSITE</a>
+                                </p>
+                                <p class="summary">Challenge scholarship co-sponsored by Google and Udacity which provided a mobile web development
+                                    curriculum that included Offline-first applications, Service workers, IndexDB and Caching,
+                                    ES6 syntax, Default Function Parameters, Destructuring, Built-Ins, Classes and Subclasses,
+                                    Array helper methods, Promises, Fetch Generators, Modifying Sets and Iterators, WeakMaps,
+                                    Proxies, Polyfills and Transpiling.</p>
+                                <br>
+                            </div>
+                            <!--//item-->
 
 
                             <!--<div class="item">
                                 <h3 class="title"><a href="#">Project Title</a> <span class="label label-theme">Open Source</span></h3>
                                 <p class="summary"> Description of next project.</p>
                                 <p><a class="more-link" href="http:" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div>--><!--//item-->
+                            </div>-->
+                            <!--//item-->
                             <!--<div class="item">
                                 <h3 class="title"><a href="#">Project Title</a> <span class="label label-theme">Open Source</span></h3>
                                 <p class="summary">Description of next project.</p>
                                 <p><a class="more-link" href="http:" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div>--><!--//item-->
+                            </div>-->
+                            <!--//item-->
 
                             <!--<a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
 
                 <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Web Development Experience</h2>
-                        <h4>Seattle University Web Development Graduate Certificate Program</h4><br>
+                        <h4>Seattle University Web Development Graduate Certificate Program</h4>
+                        <br>
 
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">HTML and CSS Fluency - <span class="place"><!--<a href="#">Startup Hub</a>--></span> <span class="year">(2017 - Present)</span></h3>
-                                <p>As a student of the Seattle University Web Development Certificate program, I created appealing web designs using HTML, CSS, SASS and LESS. I also utilized best practices and web standards in web design by using mockups and wireframes to assist with developing static and dynamic websites.</p>
-                            </div><!--//item-->
+                                <h3 class="title">HTML and CSS Fluency -
+                                    <span class="place">
+                                        <!--<a href="#">Startup Hub</a>-->
+                                    </span>
+                                    <span class="year">(2017 - Present)</span>
+                                </h3>
+                                <p>As a student of the Seattle University Web Development Certificate program, I created appealing
+                                    web designs using HTML, CSS, SASS and LESS. I also utilized best practices and web standards
+                                    in web design by using mockups and wireframes to assist with developing static and dynamic
+                                    websites.
+                                </p>
+                            </div>
+                            <!--//item-->
                             <hr class="divider" />
                             <div class="item">
-                                <h3 class="title">Javascript Programming - <span class="place"><!--<a href="#">Google</a>--></span> <span class="year">(2017 - Present)</span></h3>
-                                <p>Using concepts of Javascript programming such as progressive enhancement, DOM manipulation, detecting and altering content to enhance cross-browser support, improving usability of forms, validating data and pulling and utilizing data from external API sources. Also, using Javascript libraries such as JQuery to assist with event handling and DOM manipulation. Additionally, utilizing Javascript application frameworks like AngularJS, ReactJS and VueJS to create interactive webapps. I also utilized Model-View-Controller (MVC) architecture patterns for implementing user interfaces in multiple Javascript frameworks. </p>
-                            </div><!--//item-->
+                                <h3 class="title">Javascript Programming -
+                                    <span class="place">
+                                        <!--<a href="#">Google</a>-->
+                                    </span>
+                                    <span class="year">(2017 - Present)</span>
+                                </h3>
+                                <p>Using concepts of Javascript programming such as progressive enhancement, DOM manipulation,
+                                    detecting and altering content to enhance cross-browser support, improving usability
+                                    of forms, validating data and pulling and utilizing data from external API sources. Also,
+                                    using Javascript libraries such as JQuery to assist with event handling and DOM manipulation.
+                                    Additionally, utilizing Javascript application frameworks like AngularJS, ReactJS and
+                                    VueJS to create interactive webapps. I also utilized Model-View-Controller (MVC) architecture
+                                    patterns for implementing user interfaces in multiple Javascript frameworks. </p>
+                            </div>
+                            <!--//item-->
                             <hr class="divider" />
                             <div class="item">
-                                <h3 class="title">Servers and Hosting - <span class="place"><!--<a href="#">eBay</a>--></span> <span class="year">(2017 - Present)</span></h3>
-                                <p>Utilizing command-line UNIX utilities to move files and accomplish tasks such as connecting to remote server systems via "Secure Shell" "SSH" technologies and successfully configuring server locations to be served at a specific URL for public web users resulting in functional websites. Also, utilizing static file servers such as Apache and LAMP/LEMP stack configurations, to run custom subdomains on droplets using the Digital Ocean web server infrastructure. Deployed dynamic content after installing webapps (PHP files for Wordpress) while utilizing mySQL relational database management systems. Implemented caching and site optimization with the assistance of Wordpress plugins to compress pages and utilize PHP to serve cached files. </p>
-                            </div><!--//item-->
+                                <h3 class="title">Servers and Hosting -
+                                    <span class="place">
+                                        <!--<a href="#">eBay</a>-->
+                                    </span>
+                                    <span class="year">(2017 - Present)</span>
+                                </h3>
+                                <p>Utilizing command-line UNIX utilities to move files and accomplish tasks such as connecting
+                                    to remote server systems via "Secure Shell" "SSH" technologies and successfully configuring
+                                    server locations to be served at a specific URL for public web users resulting in functional
+                                    websites. Also, utilizing static file servers such as Apache and LAMP/LEMP stack configurations,
+                                    to run custom subdomains on droplets using the Digital Ocean web server infrastructure.
+                                    Deployed dynamic content after installing webapps (PHP files for Wordpress) while utilizing
+                                    mySQL relational database management systems. Implemented caching and site optimization
+                                    with the assistance of Wordpress plugins to compress pages and utilize PHP to serve cached
+                                    files. </p>
+                            </div>
+                            <!--//item-->
                             <hr class="divider" />
                             <div class="item">
-                                <h3 class="title">User Science and Testing - <span class="place"><!--<a href="#">eBay</a>--></span> <span class="year">(2017 - Present)</span></h3>
-                                <p>Coursework and projects that included usability testing, search engine optimization and quality assurance for developing contemporary web content. Created usability journals that contained essays, studies, and descriptive analysis of websites while applying usability studies and user science to web sites and applications. Utilized Google Analytics while implementing web analytics, events and goals and content experiments to effectively track and analyze web user behavior. </p>
-                            </div><!--//item-->
+                                <h3 class="title">User Science and Testing -
+                                    <span class="place">
+                                        <!--<a href="#">eBay</a>-->
+                                    </span>
+                                    <span class="year">(2017 - Present)</span>
+                                </h3>
+                                <p>Coursework and projects that included usability testing, search engine optimization and quality
+                                    assurance for developing contemporary web content. Created usability journals that contained
+                                    essays, studies, and descriptive analysis of websites while applying usability studies
+                                    and user science to web sites and applications. Utilized Google Analytics while implementing
+                                    web analytics, events and goals and content experiments to effectively track and analyze
+                                    web user behavior. </p>
+                            </div>
+                            <!--//item-->
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
                 <section class="github section">
                     <div class="section-inner">
                         <h2 class="heading">My GitHub Calendar</h2>
                         <div id="github-graph" class="github-graph">
-                                <img src="http://ghchart.rshah.org/409ba5/bvasilop" class="img-responsive" width="1650" alt="Blue Github Chart" />
-                        </div><!--//github-graph-->
+                            <img src="http://ghchart.rshah.org/409ba5/bvasilop" class="img-responsive" width="1650" alt="Blue Github Chart" />
+                        </div>
+                        <!--//github-graph-->
                         <h2 class="heading">My GitHub Activity Stream</h2>
                         <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
                         <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
+                        </div>
+                        <!--//ghfeed-->
+                    </div>
+                    <!--//secton-inner-->
+                </section>
+                <!--//section-->
+            </div>
+            <!--//primary-->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                 <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Seattle, WA</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:bvasilop@gmail.com" target="_blank" data-toggle="tooltip" title="Send me an Email!">bvasilop@gmail.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="http://www.billvas.com" target="_blank"data-toggle="tooltip" title="Check out my porfolio site!">billvas.com</a></li>
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    <span class="sr-only">Location:</span>Seattle, WA</li>
+                                <li>
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="sr-only">Email:</span>
+                                    <a href="mailto:bvasilop@gmail.com" target="_blank" data-toggle="tooltip" title="Send me an Email!">bvasilop@gmail.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-link"></i>
+                                    <span class="sr-only">Website:</span>
+                                    <a href="http://www.billvas.com" target="_blank" data-toggle="tooltip" title="Check out my porfolio site!">billvas.com</a>
+                                </li>
                             </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//aside-->
 
                 <aside class="skills aside section">
                     <div class="section-inner">
@@ -335,107 +565,145 @@
                                 Web development skillset illustrated in projects and coursework.</p>
                             <div class="skillset">
                                 <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, &amp; SASS <span class="level-label">Advanced</span></h3>
-                                <div class="level-bar">
-                                <div class="level-bar-inner" data-level="85%">
+                                    <h3 class="level-title">HTML5, CSS3, &amp; SASS
+                                        <span class="level-label">Advanced</span>
+                                    </h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
                                 </div>
-                            </div><!--//level-bar-->
-                        </div><!--//item-->
+                                <!--//item-->
 
-                        <div class="skillset">
-                            <div class="item">
-                                <h3 class="level-title">Git &amp; Github <span class="level-label">Advanced</span></h3>
-                            <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">API Usage <span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
+                                <div class="skillset">
+                                    <div class="item">
+                                        <h3 class="level-title">Git &amp; Github
+                                            <span class="level-label">Advanced</span>
+                                        </h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="85%">
+                                            </div>
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
 
-                                <div class="item">
-                                    <h3 class="level-title">Javascript <span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
+                                    <div class="item">
+                                        <h3 class="level-title">API Usage
+                                            <span class="level-label">Intermediate</span>
+                                        </h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="75%">
+                                            </div>
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
 
-                                <div class="item">
-                                    <h3 class="level-title">JQuery <span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="73%">
+                                    <div class="item">
+                                        <h3 class="level-title">Javascript
+                                            <span class="level-label">Intermediate</span>
+                                        </h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="75%">
+                                            </div>
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
 
-                                <div class="item">
-                                    <h3 class="level-title">Vue JS <span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="73%">
+                                    <div class="item">
+                                        <h3 class="level-title">JQuery
+                                            <span class="level-label">Intermediate</span>
+                                        </h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="73%">
+                                            </div>
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
 
-                                <div class="item">
-                                    <h3 class="level-title">Angular JS <span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="67%">
+                                    <div class="item">
+                                        <h3 class="level-title">Vue JS
+                                            <span class="level-label">Intermediate</span>
+                                        </h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="73%">
+                                            </div>
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
 
-                            <!--<div class="item">-->
-                                    <!--<h3 class="level-title">React JS<span class="level-label">Pro</span>--></h3>
+                                    <div class="item">
+                                        <h3 class="level-title">Angular JS
+                                            <span class="level-label">Intermediate</span>
+                                        </h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="67%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+
+                                    <!--<div class="item">-->
+                                    <!--<h3 class="level-title">React JS</h3><span class="level-label">Pro</span>-->
                                     <!--<div class="level-bar">
                                         <div class="level-bar-inner" data-level="36%">
                                         </div>
                                     </div>//level-bar-->
-                                <!--</div>//item-->
+                                    <!--</div>//item-->
 
-                                <!--<div class="item">
-                                    <h3 class="level-title">Python <span class="level-label">Pro</span>--><!--</h3>-->
+                                    <!--<div class="item">
+                                    <h3 class="level-title">Python <span class="level-label">Pro</span>-->
+                                    <!--</h3>-->
                                     <!--<div class="level-bar">
                                         <div class="level-bar-inner" data-level="30%">
                                         </div>
                                     </div>//level-bar-->
-                                <!--</div>//item-->
+                                    <!--</div>//item-->
 
-                                <!--<div class="item">
-                                    <h3 class="level-title">Django <span class="level-label">Pro</span>--></h3>
+                                    <!--<div class="item">
+                                    <h3 class="level-title">Django </h3> <span class="level-label">Pro</span>-->
                                     <!--<div class="level-bar">
                                         <div class="level-bar-inner" data-level="30%">
                                         </div>
                                     </div>//level-bar-->
-                                <!--</div>//item-->
+                                    <!--</div>//item-->
 
-                                <!--<div class="item">
+                                    <!--<div class="item">
                                     <h3 class="level-title">ReactJS<span class="level-label">Moderate</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="73%">
                                         </div>
-                                    </div>--><!--//level-bar-->
-                                <!--</div>--><!--//item-->
+                                    </div>-->
+                                    <!--//level-bar-->
+                                    <!--</div>-->
+                                    <!--//item-->
 
-                                <!--<div class="item">
+                                    <!--<div class="item">
                                     <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Sufficient</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="76%">
                                         </div>
-                                    </div>--><!--//level-bar-->
-                                <!--</div>--><!--//item-->
+                                    </div>-->
+                                    <!--//level-bar-->
+                                    <!--</div>-->
+                                    <!--//item-->
 
-                                <!--<p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p>-->
+                                    <!--<p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p>-->
+                                </div>
                             </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </div>
+                    <!--//item-->
+                </aside>
+                <!--//section-->
 
                 <aside class="testimonials aside section">
                     <div class="section-inner">
@@ -443,36 +711,64 @@
                         <div class="content">
                             <div class="item">
                                 <blockquote class="quote">
-                                    <p><i class="fa fa-quote-left"></i>It has been my pleasure to have Bill in the Web Development program at Seattle U. He has been an excellent student demonstrating a great degree of technical aptitude as well as a broad context for applying and thinking about technology and concepts. I know that Bill will make an excellent development team member, and he offers a much broader range of abilities and knowledge than the typical entry-level developer.</p>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i>It has been my pleasure to have Bill in the Web Development program at Seattle
+                                        U. He has been an excellent student demonstrating a great degree of technical aptitude
+                                        as well as a broad context for applying and thinking about technology and concepts.
+                                        I know that Bill will make an excellent development team member, and he offers a
+                                        much broader range of abilities and knowledge than the typical entry-level developer.</p>
                                 </blockquote>
-                                <p class="source"><span class="name">Shawn Rider</span><br /><span class="title">Educator, Web Technologist, Creative Developer</span></p>
-                            </div><!--//item-->
+                                <p class="source">
+                                    <span class="name">Shawn Rider</span>
+                                    <br />
+                                    <span class="title">Educator, Web Technologist, Creative Developer</span>
+                                </p>
+                            </div>
+                            <!--//item-->
 
-                            <p><a class="more-link" href="https://www.linkedin.com/in/bill-vasilopoulos-778031155/" target="_blank" data-toggle="tooltip" title="Contact me on LinkedIn!"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
+                            <p>
+                                <a class="more-link" href="https://www.linkedin.com/in/bill-vasilopoulos-778031155/" target="_blank" data-toggle="tooltip"
+                                    title="Contact me on LinkedIn!">
+                                    <i class="fa fa-external-link"></i> More on Linkedin</a>
+                            </p>
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
                 <aside class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> College of Arts and Sciences B.A. Telecommunications</h3>
-                                <h4 class="university">Indiana University <!--<span class="year">(2011-2012)</span></h4>-->
-                            </div><!--//item-->
+                                <h3 class="title">
+                                    <i class="fa fa-graduation-cap"></i> College of Arts and Sciences B.A. Telecommunications</h3>
+                                <h4 class="university">Indiana University</h4>
+                                <!--<span class="year">(2011-2012)</span>-->
+                            </div>
+                            <!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Graduate Certificate Web Development</h3>
-                                <h4 class="university">Seattle University <!--<span class="year">(2017)</span></h4>-->
+                                <h3 class="title">
+                                    <i class="fa fa-graduation-cap"></i> Graduate Certificate Web Development</h3>
+                                <h4 class="university">Seattle University</h4>
+                                <!--<span class="year">(2017)</span>-->
                             </div>
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Udacity Mobile Web Specialist Track</h3>
-                                <h4 class="university">Grow with Google Challenge Scholarship <!--<span class="year">(2017)</span></h4>-->
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                                <h3 class="title">
+                                    <i class="fa fa-graduation-cap"></i> Udacity Mobile Web Specialist Track</h3>
+                                <h4 class="university">Grow with Google Challenge Scholarship</h4>
+                                <!--<span class="year">(2017)</span>-->
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
                 <aside class="languages aside section">
                     <div class="section-inner">
@@ -480,72 +776,113 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
+                                    <span class="title">
+                                        <strong>English:</strong>
+                                    </span>
+                                    <span class="level">Native Speaker
+                                        <br class="visible-xs" />
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </li>
+                                <!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>Greek:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-                                </li><!--//item-->
+                                    <span class="title">
+                                        <strong>Greek:</strong>
+                                    </span>
+                                    <span class="level">Native Speaker
+                                        <br class="visible-xs" />
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </li>
+                                <!--//item-->
                             </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
                 <aside class="list music aside section">
 
-                <div class="section-inner">
-                    <h2 class="heading">Favorite coding music</h2>
+                    <div class="section-inner">
+                        <h2 class="heading">Favorite coding music</h2>
                         <div class="content">
                             <div class="embed-responsive embed-responsive-1by1">
-                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/2Xi0EKlB45Yt2l0ejjKlot" alt="Grant Green-Minor League" frameborder="0" allowtransparency="true"></iframe>
+                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/2Xi0EKlB45Yt2l0ejjKlot" alt="Grant Green-Minor League"
+                                    frameborder="0" allowtransparency="true"></iframe>
                             </div>
                             <div class="embed-responsive embed-responsive-1by1">
-                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/1Ab91coOls2Cwvce3P7Gld" alt="Herbie Hancock-Fat Albert Rotunda" allowtransparency="true"></iframe>
+                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/1Ab91coOls2Cwvce3P7Gld" alt="Herbie Hancock-Fat Albert Rotunda"
+                                    allowtransparency="true"></iframe>
                             </div>
                             <div class="embed-responsive embed-responsive-1by1">
-                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/64Dkwq6b1enNnWWgufhUiZ" alt="Miles Davis-So What(live)" allowtransparency="true"></iframe>
+                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/64Dkwq6b1enNnWWgufhUiZ" alt="Miles Davis-So What(live)"
+                                    allowtransparency="true"></iframe>
                             </div>
                             <div class="embed-responsive embed-responsive-1by1">
-                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/6YSBgKXbpoESi4zUuKNUNd" alt="Kurt Rosenwinkel-East Coast Love Affair" allowtransparency="true"></iframe>
+                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/6YSBgKXbpoESi4zUuKNUNd" alt="Kurt Rosenwinkel-East Coast Love Affair"
+                                    allowtransparency="true"></iframe>
                             </div>
                             <div class="embed-responsive embed-responsive-1by1">
-                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/4bcyZfaAWCN5SwJgYToxkN" alt="John Scofield-A Go Go" allowtransparency="true"></iframe>
+                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/4bcyZfaAWCN5SwJgYToxkN" alt="John Scofield-A Go Go"
+                                    allowtransparency="true"></iframe>
                             </div>
                             <div class="embed-responsive embed-responsive-1by1">
-                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/4yrM5BVyJzy5Ed4GPO6e8j" alt="Prince-I Wanna Be Your Lover" allowtransparency="true"></iframe>
+                                <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/4yrM5BVyJzy5Ed4GPO6e8j" alt="Prince-I Wanna Be Your Lover"
+                                    allowtransparency="true"></iframe>
                             </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
-<!---linkedIn profile badge-->
-    <aside class="education aside section">
-        <div class="section-inner">
+                <!---linkedIn profile badge-->
+                <aside class="education aside section">
+                    <div class="section-inner">
 
-            <div class="content">
-                <div class="item">
-                    <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="bill-vasilopoulos"><a class="LI-simple-link" href='https://www.linkedin.com/in/bill-vasilopoulos?trk=profile-badge'>Bill Vasilopoulos</a>
-                </div><!--//item-->
+                        <div class="content">
+                            <div class="item">
+                                <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark"
+                                    data-vanity="bill-vasilopoulos">
+                                    <a class="LI-simple-link" href="https://www.linkedin.com/in/bill-vasilopoulos?trk=profile-badge">Bill Vasilopoulos</a>
+                                </div>
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
 
-                </div><!--profile badge-->
-            </div><!--//content-->
-        </div><!--//section-inner-->
-    </aside><!--//section-->
+            </div>
+            <!--//secondary-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//masonry-->
 
-        </div><!--//secondary-->
-        </div><!--//row-->
-    </div><!--//masonry-->
-
-            <!-- ******FOOTER****** -->
-            <footer class="footer">
-                    <div class="container text-center">
-                            <!--/* footer content here*/-->
-                            <small class="copyright">Content and projects by <i class="fa fa-coffee" aria-hidden="true"></i> Bill Vasilopoulos </small>
-                    </div><!--//container-->
-                </footer><!--//footer-->
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+            <!--/* footer content here*/-->
+            <small class="copyright">Content and projects by
+                <i class="fa fa-coffee" aria-hidden="true"></i> Bill Vasilopoulos </small>
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
 
 </body>
+
 </html>
-
-
