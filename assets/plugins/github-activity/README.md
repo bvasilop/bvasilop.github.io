@@ -50,8 +50,8 @@ Then call the feed method via Javascript:
 
 ```js
 GitHubActivity.feed({
-	username: "your-username",
-	repository: "your-repo", // optional
+    username: "your-username",
+    repository: "your-repo", // optional
 	selector: "#feed",
 	limit: 20 // optional
 });
