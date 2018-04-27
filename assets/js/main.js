@@ -50,13 +50,13 @@ $(function() {
 
 
 window.sr = ScrollReveal({ reset: true });
-sr.reveal('.header', { duration: 900 });
-sr.reveal('.about section', { duration: 1200 });
-sr.reveal('.img-circle', { duration: 2000 });
-sr.reveal('.header .profile-content .name', { duration: 2300 });
-sr.reveal('.header .profile-content .desc', { duration: 2500 });
-sr.reveal('.section-inner', { duration: 700 });
-sr.reveal('.skills aside section', { duration: 2000 });
-sr.reveal('.footer', { duration: 700 });
+sr.reveal('.header', { duration: 800 });
+sr.reveal('.about section', { duration: 1100 });
+sr.reveal('.img-circle', { duration: 1800 });
+sr.reveal('.header .profile-content .name', { duration: 2100 });
+sr.reveal('.header .profile-content .desc', { duration: 2300 });
+sr.reveal('.section-inner', { duration: 600 });
+sr.reveal('.skills aside section', { duration: 1800 });
+sr.reveal('.footer', { duration: 600 });
 
 

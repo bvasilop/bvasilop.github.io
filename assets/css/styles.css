@@ -608,6 +608,24 @@ iframe {
     .footer .fa-coffee {
         color: #79a8cc;
     }
+    .glyphicon-chevron-up {
+        width: 32px;
+        height: 32px;
+        padding: 0px 8px;
+        border-radius: 50%;
+        font-size: 18px;
+        line-height: 34px;
+        color: #fff;
+        background-color: #79a8cc;
+        border-color: #052440;
+    }
+    .glyphicon-chevron-up:hover {
+        background: #65cb8c;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+    }
     /* Extra small devices (phones, less than 768px)*/
 
     @media(max-width: 768px) {
@@ -651,9 +669,11 @@ iframe {
         footer {
             display: inherit;
         }
+
         .LI-badge-container.vertical.dark {
             margin-left: 1.1rem;
         }
+
     }
 
     @media only screen and (max-width: 336px) and (min-width: 300px) {
