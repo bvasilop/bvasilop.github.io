@@ -754,6 +754,12 @@ footer {
   box-shadow: 1px 1px 3px #ccc;
   right: 1rem;
 }
+h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 1.5rem;
+}
 .gha-footer a {
   margin: 0 -1rem 0 0;
 }
