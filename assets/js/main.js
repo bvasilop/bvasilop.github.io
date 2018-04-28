@@ -48,6 +48,15 @@ $(function() {
   //Scroll Reveal
 });
 
+//added resize function for center
+/*const profile = new LI-badge-container.profile.Map(document.getElementById("headshot"),profileProp);
+.LI-badge-container.addDomListener(window, "resize", function() {
+    var center = profile.getCenter();
+    .LI-badge-container.event.trigger(profile, "resize");
+    profile.setCenter(center);
+});
+*/
+
 
 window.sr = ScrollReveal({ reset: true });
 sr.reveal('.header', { duration: 800 });
