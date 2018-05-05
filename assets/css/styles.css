@@ -686,6 +686,14 @@ footer {
 .project-image {
   margin-bottom: 15px;
 }
+.projects .item h2{
+    text-align: center !important;
+}
+#tangletown-img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer {
   display: inherit;
 }
