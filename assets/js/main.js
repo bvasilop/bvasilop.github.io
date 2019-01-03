@@ -1,3 +1,26 @@
+  //Scroll Reveal
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('p', { duration: 1200 });
+sr.reveal('.header', { duration: 800 });
+sr.reveal('.about section', { duration: 1100 });
+sr.reveal('.img-circle', { duration: 1800 });
+sr.reveal('.header .profile-content .name', { duration: 2100 });
+sr.reveal('.header .profile-content .desc', { duration: 2300 });
+sr.reveal('.section-inner', { duration: 600 });
+sr.reveal('.skills aside section', { duration: 1800 });
+sr.reveal('.footer', { duration: 600 });
+
+/**** auto current year ****/
+function currentYear() {
+    const date = new Date();
+    //console.log(date);
+    let year = date.getFullYear();
+    //console.log(year);
+
+    document.getElementById('currentYear').innerText = year;
+}
+currentYear();
+
 $(function() {
   /*======= Skillset Section =======*/
 
@@ -45,7 +68,7 @@ $(function() {
     } // End if
   });
 
-  //Scroll Reveal
+
 });
 
 //added resize function for center
@@ -58,14 +81,16 @@ $(function() {
 */
 
 
-window.sr = ScrollReveal({ reset: true });
-sr.reveal('.header', { duration: 800 });
-sr.reveal('.about section', { duration: 1100 });
-sr.reveal('.img-circle', { duration: 1800 });
-sr.reveal('.header .profile-content .name', { duration: 2100 });
-sr.reveal('.header .profile-content .desc', { duration: 2300 });
-sr.reveal('.section-inner', { duration: 600 });
-sr.reveal('.skills aside section', { duration: 1800 });
-sr.reveal('.footer', { duration: 600 });
+// window.sr = ScrollReveal({ reset: true });
+// sr.reveal('.header', { duration: 800 });
+// sr.reveal('.about section', { duration: 1100 });
+// sr.reveal('.img-circle', { duration: 1800 });
+// sr.reveal('.header .profile-content .name', { duration: 2100 });
+// sr.reveal('.header .profile-content .desc', { duration: 2300 });
+// sr.reveal('.section-inner', { duration: 600 });
+// sr.reveal('.skills aside section', { duration: 1800 });
+// sr.reveal('.footer', { duration: 600 });
+
+
 
 
