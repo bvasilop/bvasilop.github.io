@@ -3,12 +3,27 @@
 body {
     font-family: 'Avenir', 'Lato', arial, sans-serif;
     color: #0f4452;
-    background: #263140;
+    /*background: #263140;*/
     font-size: 1.65rem;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+   /* background-color: #082542; */
+    -webkit-animation: colorchange 7s; /* Chrome and Safari */
+    background: #082f39;
 }
+@keyframes colorchange{
+      0%   {background: #263140;}
+      50%  {background: #355e7b;}
+      100%  {background: #0f4452;}
+}
+@-webkit-keyframes colorchange{ /* Safari and Chrome - necessary duplicate */
+      0%   {background: #263140;}
+      50%  {background: #355e7b;}
+      100%  {background: #0f4452;}
+}
+
 
 h1,
 h2,
@@ -249,9 +264,9 @@ iframe {
     }
 
     .item .project-image:hover {
-        -webkit-opacity: 0.8;
-        -moz-opacity: 0.8;
-        opacity: 0.8;
+        -webkit-opacity: 0.95;
+        -moz-opacity: 0.95;
+        opacity: 0.95;
     }
 
     .latest .divider {
