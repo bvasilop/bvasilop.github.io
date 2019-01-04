@@ -1,6 +1,10 @@
   //Scroll Reveal
 window.sr = ScrollReveal({ reset: true });
+sr.reveal('a', { duration: 1100 });
+sr.reveal('h2', { duration: 1000 });
 sr.reveal('p', { duration: 1200 });
+sr.reveal('h3', { duration: 1000 });
+sr.reveal('li', { duration: 1000 });
 sr.reveal('.header', { duration: 800 });
 sr.reveal('.about section', { duration: 1100 });
 sr.reveal('.img-circle', { duration: 1800 });
