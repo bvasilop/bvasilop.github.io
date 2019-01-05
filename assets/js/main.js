@@ -1,4 +1,24 @@
-  //Scroll Reveal
+/**
+ * Register ServiceWorker Section.
+ */
+
+// Register service worker after the page has been completely loaded
+if ('serviceWorker' in navigator) {
+
+
+    window.addEventListener('load', function () {
+        navigator.serviceWorker
+            .register('/assets/js/sw.js')
+            .then(() => console.log('SW is registered!'));
+            //.catch(function() {
+              //  console.log('Registration failed!');
+
+    });
+}
+
+
+
+//Scroll Reveal
 window.sr = ScrollReveal({ reset: true });
 sr.reveal('a', { duration: 1100 });
 sr.reveal('h2', { duration: 1000 });
@@ -85,15 +105,7 @@ $(function() {
 */
 
 
-// window.sr = ScrollReveal({ reset: true });
-// sr.reveal('.header', { duration: 800 });
-// sr.reveal('.about section', { duration: 1100 });
-// sr.reveal('.img-circle', { duration: 1800 });
-// sr.reveal('.header .profile-content .name', { duration: 2100 });
-// sr.reveal('.header .profile-content .desc', { duration: 2300 });
-// sr.reveal('.section-inner', { duration: 600 });
-// sr.reveal('.skills aside section', { duration: 1800 });
-// sr.reveal('.footer', { duration: 600 });
+
 
 
 
