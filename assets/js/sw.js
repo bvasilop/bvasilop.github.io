@@ -102,9 +102,11 @@ const imagesToCache = [
     '/favicon.ico'
 ];
 
+
 // Cache the application shell
 
 const filesToCache = [
+    '.',
     '/',
     '/index.html',
     '/assets/css/styles.css',
@@ -140,8 +142,9 @@ const filesToCache = [
     );
   });
 
-  // Serve files from the cache
 
+  // Serve files from the cache // tutorial version
+/*
   self.addEventListener('fetch', event => {
     console.log('Fetch event for ', event.request.url);
     event.respondWith(
@@ -154,12 +157,87 @@ const filesToCache = [
         console.log('Network request for ', event.request.url);
         return fetch(event.request)
 
+
+
         // TODO 4 - Add fetched files to the cache
+
+        .then(function(response) {
+
+            // TODO 5 - Respond with custom 404 page
+
+            return caches.open(staticCacheName).then(function(cache) {
+              if (event.request.url.indexOf('test') < 0) {
+                cache.put(event.request.url, response.clone());
+              }
+              return response;
+            });
+          });
 
       }).catch(error => {
 
         // TODO 6 - Respond with custom offline page
 
+      })
+    );
+  });
+
+*/
+/* new version*/
+// self.addEventListener('fetch', function(event) {
+//     event.respondWith(
+//       caches.match(event.request)
+//       .then(function(response) {
+//         return response || fetchAndCache(event.request);
+//       })
+//     );
+//   });
+
+//   function fetchAndCache(url) {
+//     return fetch(url)
+//     .then(function(response) {
+//       // Check if we received a valid response
+//       if (!response.ok) {
+//         throw Error(response.statusText);
+//       }
+//       return caches.open(staticCacheName)
+//       .then(function(cache) {
+//         cache.put(url, response.clone());
+//         return response;
+//       });
+//     })
+//     .catch(function(error) {
+//       console.log('Request failed:', error);
+//       // You could return a custom offline 404 page here
+//     });
+//   }
+
+
+// SW Fetch
+self.addEventListener('fetch', event => {
+    event.respondWith(
+      caches.open(currentCacheVersion).then(cache => {
+        return cache.match(event.request).then(response => {
+          // Return response from cache if one exists
+          if (response) return response;
+
+          // Otherwise hit the network
+          return fetch(event.request).then(netResponse => {
+            // Only cache images from the app
+            if (
+              netResponse.url.includes('.png') ||
+              netResponse.url.includes('.jpg')
+            ) {
+              if (netResponse.url.includes(window.location.origin)) {
+                cache.put(event.request.url, netResponse.clone());
+                return netResponse;
+              }
+              return;
+            }
+            console.log(netResponse);
+            cache.put(event.request.url, netResponse.clone());
+            return netResponse;
+          });
+        });
       })
     );
   });
