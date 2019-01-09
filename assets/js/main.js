@@ -30,7 +30,7 @@ sr.reveal('.about section', { duration: 1100 });
 sr.reveal('.img-circle', { duration: 1800 });
 sr.reveal('.header .profile-content .name', { duration: 2100 });
 sr.reveal('.header .profile-content .desc', { duration: 2300 });
-sr.reveal('.section-inner', { duration: 600 });
+// sr.reveal('.section-inner', { duration: 600 });
 sr.reveal('.skills aside section', { duration: 1800 });
 sr.reveal('.footer', { duration: 600 });
 
