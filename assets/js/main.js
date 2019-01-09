@@ -20,19 +20,19 @@ if ('serviceWorker' in navigator) {
 
 //Scroll Reveal
 window.sr = ScrollReveal({ reset: true });
-sr.reveal('a', { duration: 1100 });
-sr.reveal('h2', { duration: 1000 });
-sr.reveal('p', { duration: 1200 });
-sr.reveal('h3', { duration: 1000 });
-sr.reveal('li', { duration: 1000 });
+//sr.reveal('a', { duration: 1100 });
+//sr.reveal('h2', { duration: 1000 });
+//sr.reveal('p', { duration: 1200 });
+//sr.reveal('h3', { duration: 1000 });
+//sr.reveal('li', { duration: 1000 });
 sr.reveal('.header', { duration: 800 });
-sr.reveal('.about section', { duration: 1100 });
+//sr.reveal('.about section', { duration: 1100 });
 sr.reveal('.img-circle', { duration: 1800 });
 sr.reveal('.header .profile-content .name', { duration: 2100 });
 sr.reveal('.header .profile-content .desc', { duration: 2300 });
 // sr.reveal('.section-inner', { duration: 600 });
-sr.reveal('.skills aside section', { duration: 1800 });
-sr.reveal('.footer', { duration: 600 });
+//sr.reveal('.skills aside section', { duration: 1800 });
+// sr.reveal('.footer', { duration: 600 });
 
 /**** auto current year ****/
 function currentYear() {
