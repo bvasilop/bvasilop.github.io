@@ -485,7 +485,7 @@ iframe {
     }
 
     #su-Logo {
-        max-width: 45%;
+        max-width: 40%;
         height: auto;
         /*margin: 0 auto;*/
         display:block;
@@ -760,7 +760,7 @@ footer {
 }
 
 #su-Logo {
-    max-width: 75%;
+    max-width: 42%;
     height: auto;
     /*margin: 0 auto;*/
     display:block;
@@ -796,7 +796,7 @@ footer {
   left: 265px !important;
 }
 #su-Logo {
-    max-width: 50%;
+    max-width: 38%;
     height: auto;
     /*margin: 0 auto;*/
     display:block;
