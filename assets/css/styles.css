@@ -483,6 +483,20 @@ iframe {
         height: 15px;
         background: #66cb8c;
     }
+
+    #su-Logo {
+        max-width: 45%;
+        height: auto;
+        /*margin: 0 auto;*/
+        display:block;
+    margin:auto;
+    padding-bottom: 10px;
+    }
+    #SU-cert {
+        text-align: center;
+    }
+
+
     /* Testimonials section */
 
     .testimonials .item {
@@ -522,7 +536,9 @@ iframe {
     /* Education section */
 
     .education .item {
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
+        margin-bottom: 12px;
+
     }
 
     .education .item:last-child {
@@ -545,6 +561,39 @@ iframe {
     .education .item .university .year {
         color: #b0b7bf;
         font-weight: 500;
+    }
+
+    #IU-logo {
+
+        margin-left: 10px;
+        max-width: 15%;
+
+
+    }
+    #SU-logo {
+
+        margin-left: 10px;
+        max-width: 15%;
+
+
+    }
+
+    #gwg-logo {
+
+        padding-left: 25px;
+        /* display: block;
+        margin-right: auto; */
+        max-width: 55%;
+
+    }
+    .challenge-scholarship {
+        display: inline-block;
+        font-family: "Lato", arial, sans-serif;
+        font-size: 15px;
+        color: #49719a;
+        font-weight: 700;
+        padding-left: 25px;
+
     }
     /* Language Section */
 
@@ -709,6 +758,16 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+#su-Logo {
+    max-width: 75%;
+    height: auto;
+    /*margin: 0 auto;*/
+    display:block;
+margin:auto;
+padding-bottom: 10px;
+}
+
 footer {
   display: inherit;
 }
@@ -736,6 +795,15 @@ footer {
 .LI-badge-container.vertical.dark .LI-profile-pic {
   left: 265px !important;
 }
+#su-Logo {
+    max-width: 50%;
+    height: auto;
+    /*margin: 0 auto;*/
+    display:block;
+margin:auto;
+padding-bottom: 10px;
+}
+
 }
 /*#tangletown-img{
 text-align: center;
