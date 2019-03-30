@@ -516,12 +516,13 @@ overflow: auto;
 }
 
 #su-Logo {
-  max-width: 40%;
+  max-width: 36%;
   height: auto;
   /*margin: 0 auto;*/
   display: block;
   margin: auto;
   padding-bottom: 10px;
+  filter: grayscale(.5);
 }
 
 #SU-cert {
@@ -599,17 +600,16 @@ overflow: auto;
 #IU-logo {
 
   margin-left: 10px;
-  max-width: 15%;
+  max-width: 13%;
+  filter: grayscale(.5);
 
 
 }
 
 #SU-logo {
-
   margin-left: 10px;
-  max-width: 15%;
-
-
+  max-width: 14%;
+  filter: grayscale(.5);
 }
 
 #gwg-logo {
@@ -618,6 +618,7 @@ overflow: auto;
   /* display: block;
 margin-right: auto; */
   max-width: 55%;
+  filter: grayscale(.5);
 
 }
 
