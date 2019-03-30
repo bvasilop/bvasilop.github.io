@@ -1,12 +1,30 @@
-# Portfolio Site for Bill Vasilopoulos
+# 💻 Portfolio Site for Bill Vasilopoulos
 
-**A portfolio page created as a means to display web projects as well as prior experience, education and front-end web development skillset information**
+[![build](https://travis-ci.org/ikatyang/emoji-cheat-sheet.svg?branch=master)](https://travis-ci.org/ikatyang/emoji-cheat-sheet)
 
-### Also included are:
-* Links to projects
-* Skills
-* Education,
-* Favorite coding music with embeded spotify links
-* Github links
-* Github activity stream and
-* Github calendar displaying content and frequency of github activities
+---
+
+### 🌄 A portfolio page showcasing web projects as well as prior experience, education and front-end web development skill set information 🌄
+
+---
+
+## 🚀 Contents
+
+### ✔️ Links to projects 🔗
+
+### ✔️ Skills 🕺
+
+### ✔️ Education 🏫
+
+### ✔ LinkedIn badge 🎫
+
+### ✔️ Favorite coding music with embedded Spotify links 🎵
+
+### ✔️ Github links 🔗
+
+### ✔️ Github activity stream 🏃
+
+### ✔️ Github calendar displaying content and frequency of Github activities 🗓
+---
+
+### 🔗 [Bill Vasilopoulos Portfolio Site](http://billvas.com/)
