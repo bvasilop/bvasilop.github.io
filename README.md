@@ -16,7 +16,7 @@
 
 ### ✔️ Education 🏫
 
-### ✔ LinkedIn badge 🎫
+### ✔️ LinkedIn badge 🎫
 
 ### ✔️ Favorite coding music with embedded Spotify links 🎵
 
