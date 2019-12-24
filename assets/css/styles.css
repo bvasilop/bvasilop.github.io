@@ -1,7 +1,7 @@
 /* ======= Base ======= */
 
 body {
-  font-family: 'Avenir', 'Lato', arial, sans-serif;
+  font-family: "Avenir", "Lato", arial, sans-serif;
   color: #0f4452;
   /*background: #263140;*/
   font-size: 1.65rem;
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Avenir', 'Montserrat', arial, sans-serif;
+  font-family: "Avenir", "Montserrat", arial, sans-serif;
   font-weight: bolder;
   color: #3f5a79;
 }
@@ -82,7 +82,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: "Montserrat", arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -195,7 +195,7 @@ overflow: auto;
 
 .header .profile-content .desc {
   color: #778492;
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
@@ -336,7 +336,7 @@ overflow: auto;
 }
 
 .latest .featured-image .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -356,7 +356,7 @@ overflow: auto;
 
 .latest .featured-image .ribbon .text:before,
 .latest .featured-image .ribbon .text:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   border-top: 5px solid #276582;
@@ -495,7 +495,7 @@ overflow: auto;
   color: #49719a;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -514,7 +514,6 @@ overflow: auto;
 #su-Logo {
   max-width: 40%;
   height: auto;
-  /*margin: 0 auto;*/
   display: block;
   margin: auto;
   padding-bottom: 10px;
@@ -578,7 +577,7 @@ overflow: auto;
 }
 
 .education .item .university {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-size: 15px;
   color: #49719a;
   font-weight: 700;
@@ -609,7 +608,7 @@ margin-right: auto; */
 
 .challenge-scholarship {
   display: inline-block;
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-size: 15px;
   color: #49719a;
   font-weight: 700;
@@ -651,10 +650,7 @@ margin-right: auto; */
 
 .LI-badge-container.vertical.dark .LI-profile-pic {
   display: block;
-  left: 88px !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  position: relative !important;
+  left: 31% !important;
 }
 
 /* List section */
@@ -756,6 +752,7 @@ margin-right: auto; */
   }
 
   .LI-badge-container.vertical.dark .LI-profile-pic {
+    left: 38% !important;
   }
 }
 
@@ -812,7 +809,7 @@ margin-right: auto; */
     width: 100% !important;
   }
   .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 172px !important;
+    left: 36% !important;
     margin-left: auto;
     margin-right: auto;
   }
@@ -832,7 +829,7 @@ margin-right: auto; */
   }
 
   .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 265px !important;
+    left: 31% !important;
   }
 
   #su-Logo {
@@ -877,7 +874,7 @@ text-align: center;
 
 @media only screen and (max-width: 1199px) and (min-width: 991px) {
   .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 55px !important;
+    left: 31% !important;
   }
 }
 
@@ -909,6 +906,23 @@ text-align: center;
     width: 100% !important;
   }
   .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 82px !important;
+    left: 31% !important;
+  }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 900px) {
+  #IU-logo {
+    margin-left: 10px;
+    max-width: 8%;
+  }
+
+  #SU-logo {
+    margin-left: 10px;
+    max-width: 8%;
+  }
+
+  #gwg-logo {
+    padding-left: 25px;
+    max-width: 8%;
   }
 }
