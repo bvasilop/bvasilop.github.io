@@ -649,8 +649,10 @@ margin-right: auto; */
 }
 
 .LI-badge-container.vertical.dark .LI-profile-pic {
-  display: block;
-  left: 31% !important;
+  /* position: absolute; */
+  justify-content: center;
+  border: 4px solid;
+  display: initial;
 }
 
 /* List section */
@@ -751,9 +753,9 @@ margin-right: auto; */
     width: 100% !important;
   }
 
-  .LI-badge-container.vertical.dark .LI-profile-pic {
+  /* .LI-badge-container.vertical.dark .LI-profile-pic {
     left: 38% !important;
-  }
+  } */
 }
 
 /* Extra small devices (phones, less than 768px)*/
@@ -808,11 +810,11 @@ margin-right: auto; */
   .LI-badge-container.vertical.dark {
     width: 100% !important;
   }
-  .LI-badge-container.vertical.dark .LI-profile-pic {
+  /* .LI-badge-container.vertical.dark .LI-profile-pic {
     left: 36% !important;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 }
 
 @media only screen and (max-width: 990px) and (min-width: 760px) {
@@ -828,9 +830,9 @@ margin-right: auto; */
     width: 100% !important;
   }
 
-  .LI-badge-container.vertical.dark .LI-profile-pic {
+  /* .LI-badge-container.vertical.dark .LI-profile-pic {
     left: 31% !important;
-  }
+  } */
 
   #su-Logo {
     max-width: 38%;
@@ -873,9 +875,9 @@ text-align: center;
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 991px) {
-  .LI-badge-container.vertical.dark .LI-profile-pic {
+  /* .LI-badge-container.vertical.dark .LI-profile-pic {
     left: 31% !important;
-  }
+  } */
 }
 
 @media only screen and (max-width: 414px) and (min-width: 337px) {
@@ -905,9 +907,9 @@ text-align: center;
   .LI-badge-container.vertical.dark {
     width: 100% !important;
   }
-  .LI-badge-container.vertical.dark .LI-profile-pic {
+  /* .LI-badge-container.vertical.dark .LI-profile-pic {
     left: 31% !important;
-  }
+  } */
 }
 
 @media only screen and (max-width: 414px) and (min-width: 900px) {
