@@ -1,6 +1,7 @@
 {
   "name": "bvasilop.github.io",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "[![build](https://travis-ci.org/ikatyang/emoji-cheat-sheet.svg?branch=master)](https://travis-ci.org/ikatyang/emoji-cheat-sheet)",
   "main": "Gruntfile.js",
   "dependencies": {
@@ -17,6 +18,21 @@
   },
   "scripts": {
     "build": "purgecss --css assets/plugins/bootstrap/css/bootstrap.min.css assets/plugins/font-awesome/css/font-awesome.css assets/css/styles.css --content ./index.html --out dist/ --whitelist classnameToWhitelist"
+=======
+  "description": "Portfolio Site",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-purgecss": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> d7f128db81065941f09643a7df44bed4bf2b0594
   },
   "repository": {
     "type": "git",
