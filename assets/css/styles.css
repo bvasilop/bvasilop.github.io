@@ -295,7 +295,7 @@ overflow: auto;
 }
 
 .latest .featured {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .latest .featured .title {
