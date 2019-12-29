@@ -1,4 +1,3 @@
-
 // const currentCacheVersion = 'billvas-portfolio-v1';
 // const imagesToCache = [
 //   '/assets/images_comp/angular-image-1600_large_2x.png',
@@ -87,63 +86,58 @@
 // });
 
 const imagesToCache = [
-    '/assets/images_comp/angular-image-1600_large_2x.png',
-    '/assets/images_comp/coffee-1600_large_2x.png',
-    '/assets/images_comp/flickr-1600_large_2x.png',
-    '/assets/images_comp/github-chart-1600_large_2x.png',
-    '/assets/images_comp/GrowWithGoogle-1600_large_2x.png',
-    '/assets/images_comp/headshot-1600_large_2x.png',
-    '/assets/images_comp/ilios-1600_large_2x.png',
-    '/assets/images_comp/rainier-1600_large_2x.png',
-    '/assets/images_comp/science-journal-1600_large_2x.png',
-    '/assets/images_comp/tangletown-wordpress-1600_large_2x.png',
-    '/assets/images_comp/vue-js-1600_large_2x.png',
-    '/assets/images_comp/vue-pwa-1600_large_2x.png',
-    '/favicon.ico'
+  '/assets/images_comp/angular-image-1600_large_2x.png',
+  '/assets/images_comp/coffee-1600_large_2x.png',
+  '/assets/images_comp/flickr-1600_large_2x.png',
+  '/assets/images_comp/github-chart-1600_large_2x.png',
+  '/assets/images_comp/GrowWithGoogle-1600_large_2x.png',
+  '/assets/images_comp/headshot-1600_large_2x.png',
+  '/assets/images_comp/ilios-1600_large_2x.png',
+  '/assets/images_comp/rainier-1600_large_2x.png',
+  '/assets/images_comp/science-journal-1600_large_2x.png',
+  '/assets/images_comp/tangletown-wordpress-1600_large_2x.png',
+  '/assets/images_comp/vue-js-1600_large_2x.png',
+  '/assets/images_comp/vue-pwa-1600_large_2x.png',
+  '/favicon.ico',
 ];
-
 
 // Cache the application shell
 
 const filesToCache = [
-    '.',
-    '/',
-    '/index.html',
-    '/assets/css/styles.css',
-    '/assets/js/main.js',
-    '/assets/js/sw.js',
-    '/assets/plugins/bootstrap/css/bootstrap.min.css',
-    '/assets/plugins/font-awesome/css/font-awesome.css',
-    '/assets/plugins/github-activity/src/github-activity.css',
-    //'//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css',
-    '/assets/plugins/jquery-1.11.3.min.js',
-    '/assets/plugins/bootstrap/js/bootstrap.min.js',
-    //'//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js',
-    '/assets/plugins/github-activity/src/github-activity.js',
-    //'https://unpkg.com/scrollreveal/dist/scrollreveal.min.js',
-    //'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js',
-    //'http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic',
-    //'http://fonts.googleapis.com/css?family=Montserrat:400,700',
-    //'https://www.googletagmanager.com/gtag/js?id=UA-110221936-1',
-    //'https://platform.linkedin.com/badges/js/profile.js',
+  '.',
+  '/',
+  '/index.html',
+  '/assets/css/styles.css',
+  '/assets/js/main.js',
+  '/assets/js/sw.js',
+  '/assets/plugins/bootstrap/css/bootstrap.min.css',
+  '/assets/plugins/font-awesome/css/font-awesome.css',
+  '/assets/plugins/github-activity/src/github-activity.css',
+  // '//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css',
+  '/assets/plugins/jquery-1.11.3.min.js',
+  '/assets/plugins/bootstrap/js/bootstrap.min.js',
+  // '//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js',
+  '/assets/plugins/github-activity/src/github-activity.js',
+  // 'https://unpkg.com/scrollreveal/dist/scrollreveal.min.js',
+  // 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js',
+  // 'http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic',
+  // 'http://fonts.googleapis.com/css?family=Montserrat:400,700',
+  // 'https://www.googletagmanager.com/gtag/js?id=UA-110221936-1',
+  // 'https://platform.linkedin.com/badges/js/profile.js',
 
-    ...imagesToCache
-  ];
+  ...imagesToCache,
+];
 
-  const staticCacheName = 'billvas-portfolio-v1';
+const staticCacheName = 'billvas-portfolio-v1';
 
-  self.addEventListener('install', event => {
-    console.log('Attempting to install service worker and cache static assets');
-    event.waitUntil(
-      caches.open(staticCacheName)
-      .then(cache => {
-        return cache.addAll(filesToCache);
-      })
-    );
-  });
+self.addEventListener('install', event => {
+  console.log('Attempting to install service worker and cache static assets');
+  event.waitUntil(
+    caches.open(staticCacheName).then(cache => cache.addAll(filesToCache))
+  );
+});
 
-
-  // Serve files from the cache // tutorial version
+// Serve files from the cache // tutorial version
 /*
   self.addEventListener('fetch', event => {
     console.log('Fetch event for ', event.request.url);
@@ -182,7 +176,7 @@ const filesToCache = [
   });
 
 */
-/* new version*/
+/* new version */
 // self.addEventListener('fetch', function(event) {
 //     event.respondWith(
 //       caches.match(event.request)
@@ -211,33 +205,32 @@ const filesToCache = [
 //     });
 //   }
 
-
 // SW Fetch
 self.addEventListener('fetch', event => {
-    event.respondWith(
-      caches.open(currentCacheVersion).then(cache => {
-        return cache.match(event.request).then(response => {
-          // Return response from cache if one exists
-          if (response) return response;
+  event.respondWith(
+    caches.open(currentCacheVersion).then(cache =>
+      cache.match(event.request).then(response => {
+        // Return response from cache if one exists
+        if (response) return response;
 
-          // Otherwise hit the network
-          return fetch(event.request).then(netResponse => {
-            // Only cache images from the app
-            if (
-              netResponse.url.includes('.png') ||
-              netResponse.url.includes('.jpg')
-            ) {
-              if (netResponse.url.includes(window.location.origin)) {
-                cache.put(event.request.url, netResponse.clone());
-                return netResponse;
-              }
-              return;
+        // Otherwise hit the network
+        return fetch(event.request).then(netResponse => {
+          // Only cache images from the app
+          if (
+            netResponse.url.includes('.png') ||
+            netResponse.url.includes('.jpg')
+          ) {
+            if (netResponse.url.includes(window.location.origin)) {
+              cache.put(event.request.url, netResponse.clone());
+              return netResponse;
             }
-            console.log(netResponse);
-            cache.put(event.request.url, netResponse.clone());
-            return netResponse;
-          });
+            return;
+          }
+          console.log(netResponse);
+          cache.put(event.request.url, netResponse.clone());
+          return netResponse;
         });
       })
-    );
-  });
+    )
+  );
+});
