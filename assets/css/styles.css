@@ -59,6 +59,11 @@ h4 {
   font-size: 1.21em;
 }
 
+hr {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 a {
   color: #3aaa64;
   -webkit-transition: all 0.4s ease-in-out;
@@ -66,7 +71,9 @@ a {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-
+p {
+  margin: 0 0 10px;
+}
 a:hover {
   text-decoration: underline;
   color: #610354;
@@ -248,7 +255,7 @@ overflow: auto;
 
 .section .heading {
   margin-top: 0;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
   color: #0f4452;
   font-size: 24px;
   text-align: center;
@@ -304,18 +311,18 @@ overflow: auto;
 }
 
 .latest .featured .summary {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #263140;
   text-align: left;
 }
 
-.latest .featured img {
+/* .latest .featured img {
   margin-bottom: 30px;
-}
+} */
 
-.latest .featured .desc {
+/* .latest .featured .desc {
   margin-bottom: 30px;
-}
+} */
 
 .latest .featured-image {
   position: relative;
@@ -374,9 +381,9 @@ overflow: auto;
 
 /* Projects Section */
 
-.projects .item {
+/* .projects .item {
   margin-bottom: 30px;
-}
+} */
 
 .projects .item .title {
   font-size: 16px;
@@ -431,7 +438,7 @@ overflow: auto;
 /* Git section */
 
 .github-graph {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .github-graph .js-calendar-graph-svg {
@@ -526,7 +533,7 @@ overflow: auto;
 /* Testimonials section */
 
 .testimonials .item {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .testimonials .item:last-child {
