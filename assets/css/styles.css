@@ -612,6 +612,12 @@ overflow: auto;
 margin-right: auto; */
   max-width: 55%;
 }
+#gwg-logo2 {
+  padding-left: 25px;
+  /* display: block;
+margin-right: auto; */
+  max-width: 55%;
+}
 
 .challenge-scholarship {
   display: inline-block;
