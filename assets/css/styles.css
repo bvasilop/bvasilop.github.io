@@ -181,6 +181,13 @@ overflow: auto;
 
 .header .profile-image {
   margin-right: 30px;
+  /* height: 187px;
+  width: 150px; */
+}
+.profile-image {
+  height: 187px;
+  width: 150px;
+  /* border-radius: 50%; */
 }
 
 .img-circle {
@@ -189,7 +196,7 @@ overflow: auto;
   -webkit-filter: grayscale(45%);
   filter: grayscale(45%);
   border: 3px solid transparent;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border-color: #3e3f45;
 }
 
@@ -456,6 +463,42 @@ overflow: auto;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+}
+
+/* Gist section */
+
+.gist .gist-file {
+  margin: 0.5rem 0 !important;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.gist .markdown-body {
+  font-size: 1.5rem !important;
+}
+.gist .markdown-body h1 {
+  font-size: 2.5rem !important;
+  padding: 0.3em;
+  margin-top: 0;
+}
+.gist img {
+  display: none;
+  border: none !important;
+}
+.gist .gist-meta {
+  display: none;
+  border: none !important;
+}
+
+.gist .gist-file article {
+  padding: 6px;
+  padding-top: 0 !important;
+}
+
+.gist .markdown-body h2 {
+  margin-top: 0px;
+  margin: 0.5rem !important;
 }
 
 /* Info Section */
