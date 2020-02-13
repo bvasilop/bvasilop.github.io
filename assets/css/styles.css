@@ -468,7 +468,7 @@ overflow: auto;
 /* Gist section */
 
 .gist .gist-file {
-  margin: 0.5rem 0 !important;
+  margin: 0.15rem 0 !important;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75) !important;
@@ -499,6 +499,10 @@ overflow: auto;
 .gist .markdown-body h2 {
   margin-top: 0px;
   margin: 0.5rem !important;
+}
+.gist .markdown-body h1,
+.gist .markdown-body h2 {
+  text-align: center;
 }
 
 /* Info Section */
@@ -822,10 +826,6 @@ margin-right: auto; */
   }
   .section .heading {
     padding-top: 1rem;
-  }
-  .gist .markdown-body h1,
-  .gist .markdown-body h2 {
-    text-align: center;
   }
 }
 
