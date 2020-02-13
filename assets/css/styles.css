@@ -776,7 +776,7 @@ margin-right: auto; */
 
 /* iphone 5*/
 
-@media only screen and (max-width: 336px) and (min-width: 300px) {
+@media only screen and (max-width: 415px) and (min-width: 300px) {
   .gha-github-icon .octicon {
     width: 50%;
   }
@@ -812,6 +812,21 @@ margin-right: auto; */
   /* .LI-badge-container.vertical.dark .LI-profile-pic {
     left: 38% !important;
   } */
+  .section .section-inner {
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 18px;
+  }
+  .section .section-inner p {
+    padding: 0 1rem;
+  }
+  .section .heading {
+    padding-top: 1rem;
+  }
+  .gist .markdown-body h1,
+  .gist .markdown-body h2 {
+    text-align: center;
+  }
 }
 
 /* Extra small devices (phones, less than 768px)*/
