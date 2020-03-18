@@ -757,7 +757,7 @@ a.dotted-link:hover {
     box-shadow: 1px 1px 3px #ccc;
     right: -2rem;
   }
-  .fa-github-alt:nth-child(even) {
+  .projects .item .title {
     padding-left: 1rem;
   }
 
@@ -899,15 +899,18 @@ a.dotted-link:hover {
   }
 }
 
-@media only screen and (max-width: 414px) and (min-width: 337px) {
+@media only screen and (max-width: 414px) and (min-width: 300px) {
   .gha-gravatar img {
     padding: 3px;
-    position: relative;
-    top: -3.25rem;
-    width: 42%;
+    width: 80%;
     border: 1px solid #ddd;
     box-shadow: 1px 1px 3px #ccc;
-    right: 1rem;
+    float: right;
+    top: 0.3rem;
+  }
+
+  .gha-user-info {
+    font-size: 1.5rem;
   }
 
   h2 {
