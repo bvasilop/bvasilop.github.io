@@ -3,13 +3,10 @@
 body {
   font-family: "Avenir", "Lato", arial, sans-serif;
   color: #0f4452;
-  /*background: #263140;*/
   font-size: 1.65rem;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* background-color: #082542; */
   -webkit-animation: colorchange 7s;
   /* Chrome and Safari */
   background: #082f39;
@@ -155,17 +152,6 @@ a.dotted-link:hover {
   color: #49515a;
 }
 
-/*
-iframe {
-.header {
-padding: 0;
-}
-}
-.iframe-wrapper {
-overflow: auto;
--webkit-overflow-scrolling:touch;
-} */
-
 /* ======= Header ======= */
 
 .header {
@@ -181,13 +167,10 @@ overflow: auto;
 
 .header .profile-image {
   margin-right: 30px;
-  /* height: 187px;
-  width: 150px; */
 }
 .profile-image {
   height: 187px;
   width: 150px;
-  /* border-radius: 50%; */
 }
 
 .img-circle {
@@ -196,7 +179,6 @@ overflow: auto;
   -webkit-filter: grayscale(45%);
   filter: grayscale(45%);
   border: 3px solid transparent;
-  /* border-radius: 50%; */
   border-color: #3e3f45;
 }
 
@@ -262,7 +244,6 @@ overflow: auto;
 
 .section .heading {
   margin-top: 0;
-  /* margin-bottom: 12px; */
   color: #0f4452;
   font-size: 24px;
   text-align: center;
@@ -323,14 +304,6 @@ overflow: auto;
   text-align: left;
 }
 
-/* .latest .featured img {
-  margin-bottom: 30px;
-} */
-
-/* .latest .featured .desc {
-  margin-bottom: 30px;
-} */
-
 .latest .featured-image {
   position: relative;
 }
@@ -387,10 +360,6 @@ overflow: auto;
 }
 
 /* Projects Section */
-
-/* .projects .item {
-  margin-bottom: 30px;
-} */
 
 .projects .item .title {
   font-size: 16px;
@@ -617,7 +586,6 @@ overflow: auto;
 /* Education section */
 
 .education .item {
-  /*margin-bottom: 30px;*/
   margin-bottom: 12px;
 }
 
@@ -645,25 +613,21 @@ overflow: auto;
 
 #IU-logo {
   margin-left: 10px;
-  max-width: 15%;
+  max-width: 4rem;
 }
 
 #SU-logo {
   margin-left: 10px;
-  max-width: 15%;
+  max-width: 4rem;
 }
 
 #gwg-logo {
   padding-left: 25px;
-  /* display: block;
-margin-right: auto; */
-  max-width: 55%;
+  max-width: 17rem;
 }
 #gwg-logo2 {
   padding-left: 25px;
-  /* display: block;
-margin-right: auto; */
-  max-width: 55%;
+  max-width: 17rem;
 }
 
 .challenge-scholarship {
@@ -709,7 +673,6 @@ margin-right: auto; */
 }
 
 .LI-badge-container.vertical.dark .LI-profile-pic {
-  /* position: absolute; */
   justify-content: center;
   border: 4px solid;
   display: initial;
@@ -784,7 +747,6 @@ margin-right: auto; */
   .gha-github-icon .octicon {
     width: 50%;
   }
-
   .gha-gravatar img {
     padding: 3px;
     position: relative;
@@ -794,6 +756,9 @@ margin-right: auto; */
     border: 1px solid #ddd;
     box-shadow: 1px 1px 3px #ccc;
     right: -2rem;
+  }
+  .fa-github-alt {
+    padding-left: 1rem;
   }
 
   .gha-footer a {
@@ -813,18 +778,22 @@ margin-right: auto; */
     width: 100% !important;
   }
 
-  /* .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 38% !important;
-  } */
+  .section {
+    margin-bottom: 1rem;
+  }
   .section .section-inner {
     background: #fff;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 18px;
   }
   .section .section-inner p {
     padding: 0 1rem;
   }
   .section .heading {
+    padding-top: 1rem;
+    font-size: 2.2rem;
+  }
+  .sections-wrapper {
     padding-top: 1rem;
   }
 }
@@ -853,6 +822,7 @@ margin-right: auto; */
 
   .project-image {
     margin-bottom: 15px;
+    padding: 1rem;
   }
 
   .projects .item h2 {
@@ -866,12 +836,10 @@ margin-right: auto; */
   }
 
   #su-Logo {
-    max-width: 42%;
-    height: auto;
-    /*margin: 0 auto;*/
+    max-width: 17rem;
     display: block;
     margin: auto;
-    padding-bottom: 10px;
+    padding: 1rem 0;
   }
 
   footer {
@@ -881,11 +849,6 @@ margin-right: auto; */
   .LI-badge-container.vertical.dark {
     width: 100% !important;
   }
-  /* .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 36% !important;
-    margin-left: auto;
-    margin-right: auto;
-  } */
 }
 
 @media only screen and (max-width: 990px) and (min-width: 760px) {
@@ -901,10 +864,6 @@ margin-right: auto; */
     width: 100% !important;
   }
 
-  /* .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 31% !important;
-  } */
-
   #su-Logo {
     max-width: 38%;
     height: auto;
@@ -914,9 +873,6 @@ margin-right: auto; */
     padding-bottom: 10px;
   }
 }
-/*#tangletown-img{
-text-align: center;
-}/*/
 
 @media only screen and (max-width: 1199px) and (min-width: 991px) {
   .LI-badge-container.vertical.dark {
@@ -941,14 +897,6 @@ text-align: center;
   .LI-badge-container.vertical.dark {
     width: 100% !important;
   }
-  /* .LI-badge-container.vertical.dark .LI-profile-pic {
-} */
-}
-
-@media only screen and (max-width: 1199px) and (min-width: 991px) {
-  /* .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 31% !important;
-  } */
 }
 
 @media only screen and (max-width: 414px) and (min-width: 337px) {
@@ -978,9 +926,6 @@ text-align: center;
   .LI-badge-container.vertical.dark {
     width: 100% !important;
   }
-  /* .LI-badge-container.vertical.dark .LI-profile-pic {
-    left: 31% !important;
-  } */
 }
 
 @media only screen and (max-width: 414px) and (min-width: 900px) {
