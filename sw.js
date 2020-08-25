@@ -3,6 +3,7 @@ const imagesToCache = [
   '/assets/images/angular-image.webp',
   '/assets/images/audit-results.webp',
   '/assets/images/Budgetize.webp',
+  '/assets/images/birthday-game.webp',
   '/assets/images/coffee.webp',
   '/assets/images/flickr.webp',
   '/assets/images/GrowWithGoogle.webp',
